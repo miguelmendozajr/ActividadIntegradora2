@@ -75,11 +75,11 @@ std::pair<int, int> findLongestCommonSubstring(const std::string& transmission1F
 }
 
 int main() {
-    std::string transmission1File = "/Users/edselcisneros/Documents/ActividadIntegradora/ActividadIntegradora1/transmission1.txt";
-    std::string transmission2File = "/Users/edselcisneros/Documents/ActividadIntegradora/ActividadIntegradora1/transmission2.txt";
-    std::string mcode1File = "/Users/edselcisneros/Documents/ActividadIntegradora/ActividadIntegradora1/mcode1.txt";
-    std::string mcode2File = "/Users/edselcisneros/Documents/ActividadIntegradora/ActividadIntegradora1/mcode2.txt";
-    std::string mcode3File = "/Users/edselcisneros/Documents/ActividadIntegradora/ActividadIntegradora1/mcode3.txt";
+    std::string transmission1File = "/Users/miguelmendoza/Documents/Tec/4th/DSA/ActividadIntegradora/ActividadIntegradora1/transmission1.txt";
+    std::string transmission2File = "/Users/miguelmendoza/Documents/Tec/4th/DSA/ActividadIntegradora/ActividadIntegradora1/transmission2.txt";
+    std::string mcode1File = "/Users/miguelmendoza/Documents/Tec/4th/DSA/ActividadIntegradora/ActividadIntegradora1/mcode1.txt";
+    std::string mcode2File = "/Users/miguelmendoza/Documents/Tec/4th/DSA/ActividadIntegradora/ActividadIntegradora1/mcode2.txt";
+    std::string mcode3File = "/Users/miguelmendoza/Documents/Tec/4th/DSA/ActividadIntegradora/ActividadIntegradora1/mcode3.txt";
 
     // Part 1
     std::cout << std::boolalpha;
