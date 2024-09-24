@@ -2,20 +2,72 @@
 #include <fstream>
 #include <string>
 #include <algorithm>
+#include <vector>
 
 using namespace std; 
 
+vector<int> computeLPS(const string& pattern) {
+    int m = pattern.length();
+    vector<int> lps(m, 0);
+    int len = 0;
+    int i = 1;
+
+    while (i < m) {
+        if (pattern[i] == pattern[len]) {
+            len++;
+            lps[i] = len;
+            i++;
+        } else {
+            if (len != 0) {
+                len = lps[len - 1];
+            } else {
+                lps[i] = 0;
+                i++;
+            }
+        }
+    }
+    return lps;
+}
+
 // TODO: use KMP, then return index of the substring
-bool containsCode(const string& transmissionFile, const string& mcodeFile) {
+int containsCode(const string& transmissionFile, const string& mcodeFile) {
     ifstream transmission(transmissionFile);
     ifstream mcode(mcodeFile);
+    
+    if (!transmission || !mcode) {
+        cerr << "Error opening files" << endl;
+        return -1;
+    }
 
-    string transmissionContent((istreambuf_iterator<char>(transmission)),
-                                     istreambuf_iterator<char>());
-    string mcodeContent((istreambuf_iterator<char>(mcode)),
-                             istreambuf_iterator<char>());
+    string transmissionContent((istreambuf_iterator<char>(transmission)), istreambuf_iterator<char>());
+    string mcodeContent((istreambuf_iterator<char>(mcode)), istreambuf_iterator<char>());
 
-    return transmissionContent.find(mcodeContent) != string::npos;
+    int n = transmissionContent.length();
+    int m = mcodeContent.length();
+
+    vector<int> lps = computeLPS(mcodeContent);
+
+    int i = 0; // index for transmissionContent
+    int j = 0; // index for mcodeContent
+
+    while (i < n) {
+        if (mcodeContent[j] == transmissionContent[i]) {
+            j++;
+            i++;
+        }
+
+        if (j == m) {
+            return i - j + 1; // mcode found, return the starting index
+        } else if (i < n && mcodeContent[j] != transmissionContent[i]) {
+            if (j != 0) {
+                j = lps[j - 1];
+            } else {
+                i++;
+            }
+        }
+    }
+
+    return -1; // mcode not found
 }
 
 // TODO: Delete this function
@@ -89,13 +141,22 @@ int main() {
     string mcode2File = "/Users/miguelmendoza/Documents/Tec/4th/DSA/ActividadIntegradora/mcode2.txt";
     string mcode3File = "/Users/miguelmendoza/Documents/Tec/4th/DSA/ActividadIntegradora/mcode3.txt";
 
+    vector<string> transmissionFiles = {transmission1File, transmission2File};
+    vector<string> codeFiles = {mcode1File, mcode2File, mcode3File};
+    
     // Part 1
-    cout << containsCode(transmission1File, mcode1File) << endl;
-    cout << containsCode(transmission1File, mcode2File) << endl;
-    cout << containsCode(transmission1File, mcode3File) << endl;
-    cout << containsCode(transmission2File, mcode1File) << endl;
-    cout << containsCode(transmission2File, mcode2File) << endl;
-    cout << containsCode(transmission2File, mcode3File) << endl;
+    cout << boolalpha;
+    for (int i = 0; i < transmissionFiles.size(); i++){
+        for (int j = 0; j < codeFiles.size(); j++){
+            int index = containsCode(transmissionFiles[i], codeFiles[j]);
+            if (index == -1){
+                cout << false << endl;
+            } else {
+                cout << true << " " << index << endl;
+            }
+
+        }
+    }
 
     // Part 2
     pair<int, int> longestPalindrome1 = findLongestPalindrome(transmission1File);
