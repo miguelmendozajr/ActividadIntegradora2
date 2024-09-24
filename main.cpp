@@ -83,14 +83,13 @@ pair<int, int> findLongestCommonSubstring(const string& transmission1File, const
 
 // TODO: Adapt functions output
 int main() {
-    string transmission1File = "/Users/miguelmendoza/Documents/Tec/4th/DSA/ActividadIntegradora/ActividadIntegradora1/transmission1.txt";
-    string transmission2File = "/Users/miguelmendoza/Documents/Tec/4th/DSA/ActividadIntegradora/ActividadIntegradora1/transmission2.txt";
-    string mcode1File = "/Users/miguelmendoza/Documents/Tec/4th/DSA/ActividadIntegradora/ActividadIntegradora1/mcode1.txt";
-    string mcode2File = "/Users/miguelmendoza/Documents/Tec/4th/DSA/ActividadIntegradora/ActividadIntegradora1/mcode2.txt";
-    string mcode3File = "/Users/miguelmendoza/Documents/Tec/4th/DSA/ActividadIntegradora/ActividadIntegradora1/mcode3.txt";
+    string transmission1File = "/Users/miguelmendoza/Documents/Tec/4th/DSA/ActividadIntegradora/transmission1.txt";
+    string transmission2File = "/Users/miguelmendoza/Documents/Tec/4th/DSA/ActividadIntegradora/transmission2.txt";
+    string mcode1File = "/Users/miguelmendoza/Documents/Tec/4th/DSA/ActividadIntegradora/mcode1.txt";
+    string mcode2File = "/Users/miguelmendoza/Documents/Tec/4th/DSA/ActividadIntegradora/mcode2.txt";
+    string mcode3File = "/Users/miguelmendoza/Documents/Tec/4th/DSA/ActividadIntegradora/mcode3.txt";
 
     // Part 1
-    cout << boolalpha;
     cout << containsCode(transmission1File, mcode1File) << endl;
     cout << containsCode(transmission1File, mcode2File) << endl;
     cout << containsCode(transmission1File, mcode3File) << endl;
