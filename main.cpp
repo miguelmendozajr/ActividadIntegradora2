@@ -5,6 +5,7 @@
 
 using namespace std; 
 
+// TODO: use KMP, then return index of the substring
 bool containsCode(const string& transmissionFile, const string& mcodeFile) {
     ifstream transmission(transmissionFile);
     ifstream mcode(mcodeFile);
@@ -17,12 +18,14 @@ bool containsCode(const string& transmissionFile, const string& mcodeFile) {
     return transmissionContent.find(mcodeContent) != string::npos;
 }
 
+// TODO: Delete this function
 bool isPalindrome(const string& str) {
     string reversedStr = str;
     reverse(reversedStr.begin(), reversedStr.end());
     return str == reversedStr;
 }
 
+// TODO: Improve the time complexity (use Longest Palindrome Substring algorithm)
 pair<int, int> findLongestPalindrome(const string& transmissionFile) {
     ifstream transmission(transmissionFile);
 
@@ -45,6 +48,7 @@ pair<int, int> findLongestPalindrome(const string& transmissionFile) {
     return longestPalindrome;
 }
 
+// TODO: Use LCS algorithm
 pair<int, int> findLongestCommonSubstring(const string& transmission1File, const string& transmission2File) {
     ifstream transmission1(transmission1File);
     ifstream transmission2(transmission2File);
@@ -76,6 +80,8 @@ pair<int, int> findLongestCommonSubstring(const string& transmission1File, const
     return longestCommonSubstring;
 }
 
+
+// TODO: Adapt functions output
 int main() {
     string transmission1File = "/Users/miguelmendoza/Documents/Tec/4th/DSA/ActividadIntegradora/ActividadIntegradora1/transmission1.txt";
     string transmission2File = "/Users/miguelmendoza/Documents/Tec/4th/DSA/ActividadIntegradora/ActividadIntegradora1/transmission2.txt";
