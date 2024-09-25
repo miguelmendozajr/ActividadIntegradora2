@@ -3,6 +3,7 @@
 #include <string>
 #include <algorithm>
 #include <vector>
+#include <tuple>
 
 using namespace std; 
 
@@ -29,15 +30,9 @@ vector<int> computeLPS(const string& pattern) {
     return lps;
 }
 
-// TODO: use KMP, then return index of the substring
 int containsCode(const string& transmissionFile, const string& mcodeFile) {
     ifstream transmission(transmissionFile);
     ifstream mcode(mcodeFile);
-    
-    if (!transmission || !mcode) {
-        cerr << "Error opening files" << endl;
-        return -1;
-    }
 
     string transmissionContent((istreambuf_iterator<char>(transmission)), istreambuf_iterator<char>());
     string mcodeContent((istreambuf_iterator<char>(mcode)), istreambuf_iterator<char>());
@@ -70,34 +65,46 @@ int containsCode(const string& transmissionFile, const string& mcodeFile) {
     return -1; // mcode not found
 }
 
-// TODO: Delete this function
-bool isPalindrome(const string& str) {
-    string reversedStr = str;
-    reverse(reversedStr.begin(), reversedStr.end());
-    return str == reversedStr;
-}
-
-// TODO: Improve the time complexity (use Longest Palindrome Substring algorithm)
-pair<int, int> findLongestPalindrome(const string& transmissionFile) {
+tuple<int, int, string> findLongestPalindrome(const string& transmissionFile) {
     ifstream transmission(transmissionFile);
 
     string transmissionContent((istreambuf_iterator<char>(transmission)),
                                      istreambuf_iterator<char>());
 
     int maxLength = 0;
-    pair<int, int> longestPalindrome;
-
-    for (int i = 0; i < transmissionContent.length(); i++) {
-        for (int j = i + 1; j < transmissionContent.length(); j++) {
-            string substring = transmissionContent.substr(i, j - i + 1);
-            if (isPalindrome(substring) && substring.length() > maxLength) {
-                maxLength = substring.length();
-                longestPalindrome = make_pair(i + 1, j + 1);
+    int start = 0;
+    int end = 0;
+    
+    for (int i = 0; i < transmissionContent.size(); i++){
+        // odd
+        int left = i;
+        int right = i;
+        while (left >= 0 && right < transmissionContent.size() && transmissionContent[left] == transmissionContent[right]){
+            int length = right - left + 1;
+            if (length > maxLength){
+                maxLength = length;
+                start = left;
+                end = right;
             }
+            left--;
+            right++;
+        }
+
+        // even 
+        left = i;
+        right = i + 1;
+        while (left >= 0 && right < transmissionContent.size() && transmissionContent[left] == transmissionContent[right]){
+            int length = right - left + 1;
+            if (length > maxLength){
+                maxLength = length;
+                start = left;
+                end = right;
+            }
+            left--;
+            right++;
         }
     }
-
-    return longestPalindrome;
+   return make_tuple(start + 1, end + 1, transmissionContent.substr(start, maxLength));
 }
 
 // TODO: Use LCS algorithm
@@ -145,24 +152,26 @@ int main() {
     vector<string> codeFiles = {mcode1File, mcode2File, mcode3File};
     
     // Part 1
-    cout << boolalpha;
     for (int i = 0; i < transmissionFiles.size(); i++){
         for (int j = 0; j < codeFiles.size(); j++){
             int index = containsCode(transmissionFiles[i], codeFiles[j]);
             if (index == -1){
-                cout << false << endl;
+                cout << "false" << endl;
             } else {
-                cout << true << " " << index << endl;
+                cout << "true" << " " << index << endl;
             }
 
         }
     }
 
     // Part 2
-    pair<int, int> longestPalindrome1 = findLongestPalindrome(transmission1File);
-    pair<int, int> longestPalindrome2 = findLongestPalindrome(transmission2File);
-    cout << longestPalindrome1.first << " " << longestPalindrome1.second << endl;
-    cout << longestPalindrome2.first << " " << longestPalindrome2.second << endl;
+    for (int i = 0; i < transmissionFiles.size(); i++){
+        tuple<int, int, string> result = findLongestPalindrome(transmissionFiles[i]);
+        int startIndex = get<0>(result);
+        int endIndex = get<1>(result);
+        string longestPalindrome = get<2>(result);
+        cout << startIndex << " " << endIndex << " " << longestPalindrome << endl;
+    }
 
     // Part 3
     pair<int, int> longestCommonSubstring = findLongestCommonSubstring(transmission1File, transmission2File);
