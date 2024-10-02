@@ -4,6 +4,9 @@
 #include <algorithm>
 #include <vector>
 #include <tuple>
+#include <stdlib.h>
+#include <string.h>
+#include <cstring>
 
 using namespace std; 
 
@@ -107,37 +110,51 @@ tuple<int, int, string> findLongestPalindrome(const string& transmissionFile) {
    return make_tuple(start + 1, end + 1, transmissionContent.substr(start, maxLength));
 }
 
-// TODO: Use LCS algorithm
-pair<int, int> findLongestCommonSubstring(const string& transmission1File, const string& transmission2File) {
+tuple<int, int, string> findLongestCommonSubstring(const string& transmission1File, const string& transmission2File) {
     ifstream transmission1(transmission1File);
     ifstream transmission2(transmission2File);
 
-    string transmission1Content((istreambuf_iterator<char>(transmission1)),
-                                     istreambuf_iterator<char>());
-    string transmission2Content((istreambuf_iterator<char>(transmission2)),
-                                     istreambuf_iterator<char>());
+    string transmission1ContentS((istreambuf_iterator<char>(transmission1)), istreambuf_iterator<char>());
+    string transmission2ContentS((istreambuf_iterator<char>(transmission2)), istreambuf_iterator<char>());
 
-    int maxLength = 0;
-    pair<int, int> longestCommonSubstring;
+    int len1 = transmission1ContentS.size();
+    int len2 = transmission2ContentS.size();
+    vector<vector<int>> longest(len1+1, vector<int>(len2+1,0));
+    int maxLen = 0;
+    int endRow = -1, endCol = -1;
 
-    for (int i = 0; i < transmission1Content.length(); i++) {
-        for (int j = 0; j < transmission2Content.length(); j++) {
-            int length = 0;
-            while (transmission1Content[i + length] == transmission2Content[j + length]) {
-                length++;
-                if (i + length >= transmission1Content.length() || j + length >= transmission2Content.length()) {
-                    break;
+    for (int i = 1; i <= len1; i++) {
+        for (int j = 1; j <= len2; j++) {
+            if (transmission1ContentS[i - 1] == transmission2ContentS[j - 1]) {
+                longest[i][j] = longest[i - 1][j - 1] + 1;
+                if (maxLen < longest[i][j]) {
+                    maxLen = longest[i][j];
+                    endRow = i;
+                    endCol = j;
                 }
-            }
-            if (length > maxLength) {
-                maxLength = length;
-                longestCommonSubstring = make_pair(i + 1, i + length);
+            } else {
+                longest[i][j] = 0;
             }
         }
     }
 
-    return longestCommonSubstring;
+    if (maxLen == 0) {
+        cout << "There exists no common substring" << endl;
+        return make_tuple(-1, -1, "");
+    }
+
+    string final_str(maxLen, '\0');
+    int row = endRow;
+    int col = endCol;
+
+    while (longest[row][col] != 0 && row > 0 && col > 0) {
+        final_str[--maxLen] = transmission1ContentS[row - 1];
+        row--;
+        col--;
+    }
+    return make_tuple(row+1, row+final_str.length(), final_str); 
 }
+
 
 
 // TODO: Adapt functions output
@@ -174,8 +191,9 @@ int main() {
     }
 
     // Part 3
-    pair<int, int> longestCommonSubstring = findLongestCommonSubstring(transmission1File, transmission2File);
-    cout << longestCommonSubstring.first << " " << longestCommonSubstring.second << endl;
+    cout<<endl<<"part3:"<<endl;
+    tuple<int, int, string> longestCommonSubstring = findLongestCommonSubstring(transmission1File, transmission2File);
+    cout << endl<<get<0>(longestCommonSubstring)<<endl<<get<1>(longestCommonSubstring)<<endl<<get<2>(longestCommonSubstring)<<endl;
 
     return 0;
 }
