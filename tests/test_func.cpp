@@ -5,8 +5,5 @@
 
 
 TEST_CASE("findLongestPalindrome") {
-    string transmission1File = "/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/transmission1.txt";
-    string mcode2File = "/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/mcode2.txt";
-
-    REQUIRE(containsCode(transmission1File, mcode2File) == -1);
+    REQUIRE(containsCode("/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/transmission1.txt", "/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/mcode2.txt") == -1);
 }
