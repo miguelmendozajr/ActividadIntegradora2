@@ -31,7 +31,8 @@ std::vector<int> computeLPS(const std::string& pattern) {
     return lps;
 }
 
-int containsCode(const std::string& transmissionFile, const std::string& mcodeFile) {
+int containsCode(const std::string& transmissionContent, const std::string& mcodeContent) {
+    /*
     std::ifstream transmission(transmissionFile);
     if (!transmission.is_open()) {
         throw std::runtime_error("Failed to open transmission file: " + transmissionFile);
@@ -45,6 +46,7 @@ int containsCode(const std::string& transmissionFile, const std::string& mcodeFi
     std::string transmissionContent((std::istreambuf_iterator<char>(transmission)), std::istreambuf_iterator<char>());
     std::string mcodeContent((std::istreambuf_iterator<char>(mcode)), std::istreambuf_iterator<char>());
 
+    */
     if (transmissionContent.empty() || mcodeContent.empty()) {
         return -1; // Invalid data or no content
     }

@@ -4,6 +4,10 @@
 #include "func.h"
 
 
-TEST_CASE("findLongestPalindrome") {
-    REQUIRE(containsCode("/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/transmission1.txt", "/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/mcode2.txt") == -1);
+TEST_CASE("contains code") {
+    REQUIRE(containsCode("abcabcabc", "abc") == 1);  // Match at index 1
+    REQUIRE(containsCode("aaaaa", "aaa") == 1);      // Overlapping match
+    REQUIRE(containsCode("abcdef", "xyz") == -1);    // No match
+    REQUIRE(containsCode("", "abc") == -1);          // Empty transmission
+    REQUIRE(containsCode("abc", "") == -1);          // Empty mcode
 }
