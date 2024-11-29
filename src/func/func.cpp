@@ -47,6 +47,7 @@ unsigned int factorial(unsigned int number) {
     return result;
 }
 
+/*
 std::vector<int> computeLPS(const std::string& pattern) {
     if (pattern.empty()) return {};
     int m = pattern.length();
@@ -186,3 +187,4 @@ std::tuple<int, int, std::string> findLongestCommonSubstring(const std::string& 
     std::string finalStr = transmission1Content.substr(endRow - maxLen, maxLen);
     return std::make_tuple(endRow - maxLen + 1, endRow, finalStr);
 }
+*/
