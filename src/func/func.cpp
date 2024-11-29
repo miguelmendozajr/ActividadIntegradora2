@@ -46,7 +46,6 @@ int containsCode(const std::string& transmissionContent, const std::string& mcod
     std::string transmissionContent((std::istreambuf_iterator<char>(transmission)), std::istreambuf_iterator<char>());
     std::string mcodeContent((std::istreambuf_iterator<char>(mcode)), std::istreambuf_iterator<char>());
 
-    */
     if (transmissionContent.empty() || mcodeContent.empty()) {
         return -1; // Invalid data or no content
     }
@@ -71,6 +70,8 @@ int containsCode(const std::string& transmissionContent, const std::string& mcod
             j = (j != 0) ? lps[j - 1] : 0;
         }
     }
+
+    */
 
     return -1; // mcode not found
 }
