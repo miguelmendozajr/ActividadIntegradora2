@@ -1,0 +1,4 @@
+/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/src/func/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir
+/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/src/func/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir
+/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/src/func/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/edit_cache.dir
+/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/src/func/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,5 @@
+if(EXISTS "/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/tests/UnitTestFoo-b12d07c_tests.cmake")
+  include("/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/tests/UnitTestFoo-b12d07c_tests.cmake")
+else()
+  add_test(UnitTestFoo_NOT_BUILT-b12d07c UnitTestFoo_NOT_BUILT-b12d07c)
+endif()

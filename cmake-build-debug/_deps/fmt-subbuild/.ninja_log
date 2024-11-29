@@ -1,0 +1,21 @@
+# ninja log v6
+1	51	1732850842715246961	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-mkdir	faf0bef1d25dcd21
+1	51	1732850842715246961	/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-mkdir	faf0bef1d25dcd21
+51	2229	1732850844893413538	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-download	397254af13efccaa
+51	2229	1732850844893413538	/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-download	397254af13efccaa
+2229	2305	1732850844894804215	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-update	55a55d37973a7c0e
+2229	2305	1732850844894804215	/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-update	55a55d37973a7c0e
+2305	2340	1732850845004466824	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-patch	dee82e6312e916b3
+2305	2340	1732850845004466824	/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-patch	dee82e6312e916b3
+2340	2370	1732850845034760300	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-configure	bae60aaf3fc7c18c
+2340	2370	1732850845034760300	/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-configure	bae60aaf3fc7c18c
+2370	2401	1732850845065781281	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-build	873c39fbb04d09
+2370	2401	1732850845065781281	/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-build	873c39fbb04d09
+2401	2430	1732850845094893082	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-install	3182da8243775e6c
+2401	2430	1732850845094893082	/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-install	3182da8243775e6c
+2430	2473	1732850845137909944	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-test	c05d324b259cb3fb
+2430	2473	1732850845137909944	/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-test	c05d324b259cb3fb
+2473	2539	1732850845203724935	CMakeFiles/fmt-populate-complete	1a7370abf3a764f2
+2473	2539	1732850845203724935	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-done	1a7370abf3a764f2
+2473	2539	1732850845203724935	/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/fmt-subbuild/CMakeFiles/fmt-populate-complete	1a7370abf3a764f2
+2473	2539	1732850845203724935	/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-done	1a7370abf3a764f2

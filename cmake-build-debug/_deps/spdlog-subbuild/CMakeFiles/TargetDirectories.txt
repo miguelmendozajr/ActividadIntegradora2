@@ -1,0 +1,3 @@
+/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/spdlog-subbuild/CMakeFiles/spdlog-populate.dir
+/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/spdlog-subbuild/CMakeFiles/edit_cache.dir
+/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/spdlog-subbuild/CMakeFiles/rebuild_cache.dir
