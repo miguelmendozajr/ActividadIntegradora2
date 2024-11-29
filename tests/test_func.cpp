@@ -58,8 +58,8 @@ TEST_CASE("factorial") {
 
 
 TEST_CASE("contains code") {
-    const std::string transmissionFile = "../transmission1.txt";
-    const std::string codeFile = "../mcode2.txt";
+    const std::string transmissionFile = "AAAAAA";
+    const std::string codeFile = "z";
 
-    REQUIRE( containsCode(transmissionFile, codeFile)== -1);
+    REQUIRE( containsCode(transmissionFile, codeFile) == -1);
 }

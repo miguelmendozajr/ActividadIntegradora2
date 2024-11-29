@@ -15,16 +15,18 @@ std::vector<int> computeLPS(const std::string& pattern);
 
 /// @brief Checks if a machine code (mcode) is present in a transmission.
 /// Reads the contents of both files and determines if the mcode is a substring of the transmission.
-/// @param transmissionFile The file containing the transmission data.
-/// @param mcodeFile The file containing the machine code to search for.
-/// @return 1 if the mcode is found in the transmission, 0 otherwise.
-int containsCode(const std::string& transmissionFile, const std::string& mcodeFile);
+/// @param transmission The file containing the transmission data.
+/// @param code The file containing the machine code to search for.
+/// @return 1 if the mcode is found in the transmission, -2 otherwise.
+int containsCode(const std::string& transmissionContent, const std::string& mcodeContent);
 
+/*
 /// @brief Finds the longest palindromic substring in a given transmission file.
 /// Reads the contents of the file and identifies the longest substring that is a palindrome.
 /// @param transmissionFile The file containing the transmission data.
 /// @return A tuple containing the start index, end index, and the longest palindromic substring.
 std::tuple<int, int, std::string> findLongestPalindrome(const std::string& transmissionFile);
+
 
 /// @brief Finds the longest common substring between two transmission files.
 /// Reads the contents of both files and identifies the longest substring that appears in both.
@@ -33,3 +35,4 @@ std::tuple<int, int, std::string> findLongestPalindrome(const std::string& trans
 /// @return A tuple containing the start index in the first file, start index in the second file, 
 ///         and the longest common substring.
 std::tuple<int, int, std::string> findLongestCommonSubstring(const std::string& transmission1File, const std::string& transmission2File);
+*/

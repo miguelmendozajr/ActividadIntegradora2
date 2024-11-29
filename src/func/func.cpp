@@ -47,49 +47,36 @@ unsigned int factorial(unsigned int number) {
 }
 
 std::vector<int> computeLPS(const std::string& pattern) {
-    if (pattern.empty()) return {};
-
     size_t m = pattern.length();
     std::vector<int> lps(m, 0);
-    size_t len = 0, i = 1;
+    int len = 0;
+    int i = 1;
 
     while (i < m) {
         if (pattern[i] == pattern[len]) {
             len++;
-            lps[i] = static_cast<int>(len);
+            lps[i] = len;
             i++;
         } else {
-            len = (len != 0) ? lps[len - 1] : 0;
+            if (len != 0) {
+                len = lps[len - 1];
+            } else {
+                lps[i] = 0;
+                i++;
+            }
         }
     }
     return lps;
 }
 
-int containsCode(const std::string& transmissionFile, const std::string& mcodeFile) {
-    std::ifstream transmission(transmissionFile);
-    if (!transmission.is_open()) {
-        throw std::runtime_error("Failed to open transmission file: " + transmissionFile);
-    }
-
-    std::ifstream mcode(mcodeFile);
-    if (!mcode.is_open()) {
-        throw std::runtime_error("Failed to open mcode file: " + mcodeFile);
-    }
-
-    std::string transmissionContent((std::istreambuf_iterator<char>(transmission)), std::istreambuf_iterator<char>());
-    std::string mcodeContent((std::istreambuf_iterator<char>(mcode)), std::istreambuf_iterator<char>());
-
-    if (transmissionContent.empty() || mcodeContent.empty()) {
-        return -1; // Invalid data or no content
-    }
-
+int containsCode(const std::string& transmissionContent, const std::string& mcodeContent) {
     size_t n = transmissionContent.length();
     size_t m = mcodeContent.length();
 
     std::vector<int> lps = computeLPS(mcodeContent);
 
-    size_t i = 0; // index for transmissionContent
-    size_t j = 0; // index for mcodeContent
+    int i = 0; // index for transmissionContent
+    int j = 0; // index for mcodeContent
 
     while (i < n) {
         if (mcodeContent[j] == transmissionContent[i]) {
@@ -98,13 +85,17 @@ int containsCode(const std::string& transmissionFile, const std::string& mcodeFi
         }
 
         if (j == m) {
-            return static_cast<int>(i - j); // code found, return the starting index
+            return i - j + 1; // mcode found, return the starting index
         } else if (i < n && mcodeContent[j] != transmissionContent[i]) {
-            j = (j != 0) ? lps[j - 1] : 0;
+            if (j != 0) {
+                j = lps[j - 1];
+            } else {
+                i++;
+            }
         }
     }
 
-    return -1; // code not found
+    return -1;
 }
 
 
