@@ -1,7 +1,7 @@
 /***************************************************************************************
  * File: main.cpp
  * Author: Miguel Mendoza Jaidar
- * Email: miguel.mendoza.jaidar@example.com
+ * Email: miguel.mendoza.jaidar@examplecom
  * 
  * Project: [Project Name or Description]
  * 
@@ -32,11 +32,10 @@
  * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  ***************************************************************************************/
 
-#include <iostream>
-#include <vector>
-#include <string>
+
 #include <fstream>
-#include <tuple>
+#include <string>
+#include <vector>
 #include <stdexcept>
 
 unsigned int factorial(unsigned int number) {
@@ -47,17 +46,17 @@ unsigned int factorial(unsigned int number) {
     return result;
 }
 
-/*
 std::vector<int> computeLPS(const std::string& pattern) {
     if (pattern.empty()) return {};
-    int m = pattern.length();
+
+    size_t m = pattern.length();
     std::vector<int> lps(m, 0);
-    int len = 0, i = 1;
+    size_t len = 0, i = 1;
 
     while (i < m) {
         if (pattern[i] == pattern[len]) {
             len++;
-            lps[i] = len;
+            lps[i] = static_cast<int>(len);
             i++;
         } else {
             len = (len != 0) ? lps[len - 1] : 0;
@@ -66,7 +65,7 @@ std::vector<int> computeLPS(const std::string& pattern) {
     return lps;
 }
 
-int containsCode(const std::string& transmissionContent, const std::string& mcodeContent) {
+int containsCode(const std::string& transmissionFile, const std::string& mcodeFile) {
     std::ifstream transmission(transmissionFile);
     if (!transmission.is_open()) {
         throw std::runtime_error("Failed to open transmission file: " + transmissionFile);
@@ -84,13 +83,13 @@ int containsCode(const std::string& transmissionContent, const std::string& mcod
         return -1; // Invalid data or no content
     }
 
-    int n = transmissionContent.length();
-    int m = mcodeContent.length();
+    size_t n = transmissionContent.length();
+    size_t m = mcodeContent.length();
 
     std::vector<int> lps = computeLPS(mcodeContent);
 
-    int i = 0; // index for transmissionContent
-    int j = 0; // index for mcodeContent
+    size_t i = 0; // index for transmissionContent
+    size_t j = 0; // index for mcodeContent
 
     while (i < n) {
         if (mcodeContent[j] == transmissionContent[i]) {
@@ -99,14 +98,17 @@ int containsCode(const std::string& transmissionContent, const std::string& mcod
         }
 
         if (j == m) {
-            return i - j + 1; // mcode found, return the starting index
+            return static_cast<int>(i - j); // code found, return the starting index
         } else if (i < n && mcodeContent[j] != transmissionContent[i]) {
             j = (j != 0) ? lps[j - 1] : 0;
         }
     }
 
-    return -1; // mcode not found
+    return -1; // code not found
 }
+
+
+/*
 
 
 std::tuple<int, int, std::string> findLongestPalindrome(const std::string& transmissionContent) {

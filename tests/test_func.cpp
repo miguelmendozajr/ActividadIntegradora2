@@ -55,3 +55,11 @@ TEST_CASE("factorial") {
     REQUIRE(factorial(10) == 3628800); // 10! = 3628800
     REQUIRE(factorial(12) == 479001600); // 12! = 479001600
 }
+
+
+TEST_CASE("contains code") {
+    const std::string transmissionFile = "../transmission1.txt";
+    const std::string codeFile = "../mcode2.txt";
+
+    REQUIRE( containsCode(transmissionFile, codeFile)== -1);
+}
