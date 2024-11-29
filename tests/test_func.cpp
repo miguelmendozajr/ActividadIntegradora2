@@ -39,4 +39,19 @@
 
 TEST_CASE("factorial") {
     REQUIRE(factorial(0) == 1);
+
+    // Edge case: factorial(1)
+    REQUIRE(factorial(1) == 1);
+
+    // Small values
+    REQUIRE(factorial(2) == 2);       // 2! = 2
+    REQUIRE(factorial(3) == 6);       // 3! = 6
+    REQUIRE(factorial(4) == 24);      // 4! = 24
+    REQUIRE(factorial(5) == 120);     // 5! = 120
+    REQUIRE(factorial(6) == 720);     // 6! = 720
+    REQUIRE(factorial(7) == 5040);    // 7! = 5040
+
+    // Large values (ensure no overflow for reasonably large inputs)
+    REQUIRE(factorial(10) == 3628800); // 10! = 3628800
+    REQUIRE(factorial(12) == 479001600); // 12! = 479001600
 }
