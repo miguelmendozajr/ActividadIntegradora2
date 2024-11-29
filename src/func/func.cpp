@@ -66,7 +66,6 @@ std::vector<int> computeLPS(const std::string& pattern) {
 }
 
 int containsCode(const std::string& transmissionContent, const std::string& mcodeContent) {
-    /*
     std::ifstream transmission(transmissionFile);
     if (!transmission.is_open()) {
         throw std::runtime_error("Failed to open transmission file: " + transmissionFile);
@@ -104,8 +103,6 @@ int containsCode(const std::string& transmissionContent, const std::string& mcod
             j = (j != 0) ? lps[j - 1] : 0;
         }
     }
-
-    */
 
     return -1; // mcode not found
 }

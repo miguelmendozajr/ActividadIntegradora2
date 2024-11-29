@@ -1,7 +1,7 @@
 coverage:
   precision: 0
   round: nearest
-  range: 40...100
+  range: 5...100
 
 ignore:
   - "app/*"
