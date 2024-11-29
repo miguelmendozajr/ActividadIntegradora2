@@ -1,20 +1,23 @@
 #include <iostream>
+#include <vector>
+#include <string>
+#include <fstream>
+#include <tuple>
+#include <stdexcept>
 
-#include "nlohmann/json.hpp"
-
-#include "func.h"
-
-unsigned int factorial(unsigned int number)
-{
-    return number <= 1 ? 1 : factorial(number - 1) * number;
+unsigned int factorial(unsigned int number) {
+    unsigned int result = 1;
+    for (unsigned int i = 2; i <= number; i++) {
+        result *= i;
+    }
+    return result;
 }
 
-
-vector<int> computeLPS(const string& pattern) {
+std::vector<int> computeLPS(const std::string& pattern) {
+    if (pattern.empty()) return {};
     int m = pattern.length();
-    vector<int> lps(m, 0);
-    int len = 0;
-    int i = 1;
+    std::vector<int> lps(m, 0);
+    int len = 0, i = 1;
 
     while (i < m) {
         if (pattern[i] == pattern[len]) {
@@ -22,28 +25,34 @@ vector<int> computeLPS(const string& pattern) {
             lps[i] = len;
             i++;
         } else {
-            if (len != 0) {
-                len = lps[len - 1];
-            } else {
-                lps[i] = 0;
-                i++;
-            }
+            len = (len != 0) ? lps[len - 1] : 0;
         }
     }
     return lps;
 }
 
-int containsCode(const string& transmissionFile, const string& mcodeFile) {
-    ifstream transmission(transmissionFile);
-    ifstream mcode(mcodeFile);
+int containsCode(const std::string& transmissionFile, const std::string& mcodeFile) {
+    std::ifstream transmission(transmissionFile);
+    if (!transmission.is_open()) {
+        throw std::runtime_error("Failed to open transmission file: " + transmissionFile);
+    }
 
-    string transmissionContent((istreambuf_iterator<char>(transmission)), istreambuf_iterator<char>());
-    string mcodeContent((istreambuf_iterator<char>(mcode)), istreambuf_iterator<char>());
+    std::ifstream mcode(mcodeFile);
+    if (!mcode.is_open()) {
+        throw std::runtime_error("Failed to open mcode file: " + mcodeFile);
+    }
+
+    std::string transmissionContent((std::istreambuf_iterator<char>(transmission)), std::istreambuf_iterator<char>());
+    std::string mcodeContent((std::istreambuf_iterator<char>(mcode)), std::istreambuf_iterator<char>());
+
+    if (transmissionContent.empty() || mcodeContent.empty()) {
+        return -1; // Invalid data or no content
+    }
 
     int n = transmissionContent.length();
     int m = mcodeContent.length();
 
-    vector<int> lps = computeLPS(mcodeContent);
+    std::vector<int> lps = computeLPS(mcodeContent);
 
     int i = 0; // index for transmissionContent
     int j = 0; // index for mcodeContent
@@ -57,34 +66,32 @@ int containsCode(const string& transmissionFile, const string& mcodeFile) {
         if (j == m) {
             return i - j + 1; // mcode found, return the starting index
         } else if (i < n && mcodeContent[j] != transmissionContent[i]) {
-            if (j != 0) {
-                j = lps[j - 1];
-            } else {
-                i++;
-            }
+            j = (j != 0) ? lps[j - 1] : 0;
         }
     }
 
     return -1; // mcode not found
 }
 
-tuple<int, int, string> findLongestPalindrome(const string& transmissionFile) {
-    ifstream transmission(transmissionFile);
+std::tuple<int, int, std::string> findLongestPalindrome(const std::string& transmissionFile) {
+    std::ifstream transmission(transmissionFile);
+    if (!transmission.is_open()) {
+        throw std::runtime_error("Failed to open transmission file: " + transmissionFile);
+    }
 
-    string transmissionContent((istreambuf_iterator<char>(transmission)),
-                                     istreambuf_iterator<char>());
+    std::string transmissionContent((std::istreambuf_iterator<char>(transmission)), std::istreambuf_iterator<char>());
+    if (transmissionContent.empty()) {
+        return std::make_tuple(-1, -1, "");
+    }
 
-    int maxLength = 0;
-    int start = 0;
-    int end = 0;
-    
-    for (int i = 0; i < transmissionContent.size(); i++){
-        // odd
-        int left = i;
-        int right = i;
-        while (left >= 0 && right < transmissionContent.size() && transmissionContent[left] == transmissionContent[right]){
+    int maxLength = 0, start = 0, end = 0;
+
+    for (int i = 0; i < transmissionContent.size(); i++) {
+        // Odd-length palindrome
+        int left = i, right = i;
+        while (left >= 0 && right < transmissionContent.size() && transmissionContent[left] == transmissionContent[right]) {
             int length = right - left + 1;
-            if (length > maxLength){
+            if (length > maxLength) {
                 maxLength = length;
                 start = left;
                 end = right;
@@ -93,12 +100,12 @@ tuple<int, int, string> findLongestPalindrome(const string& transmissionFile) {
             right++;
         }
 
-        // even 
+        // Even-length palindrome
         left = i;
         right = i + 1;
-        while (left >= 0 && right < transmissionContent.size() && transmissionContent[left] == transmissionContent[right]){
+        while (left >= 0 && right < transmissionContent.size() && transmissionContent[left] == transmissionContent[right]) {
             int length = right - left + 1;
-            if (length > maxLength){
+            if (length > maxLength) {
                 maxLength = length;
                 start = left;
                 end = right;
@@ -107,50 +114,49 @@ tuple<int, int, string> findLongestPalindrome(const string& transmissionFile) {
             right++;
         }
     }
-   return make_tuple(start + 1, end + 1, transmissionContent.substr(start, maxLength));
+
+    return std::make_tuple(start + 1, end + 1, transmissionContent.substr(start, maxLength));
 }
 
-tuple<int, int, string> findLongestCommonSubstring(const string& transmission1File, const string& transmission2File) {
-    ifstream transmission1(transmission1File);
-    ifstream transmission2(transmission2File);
+std::tuple<int, int, std::string> findLongestCommonSubstring(const std::string& transmission1File, const std::string& transmission2File) {
+    std::ifstream transmission1(transmission1File);
+    if (!transmission1.is_open()) {
+        throw std::runtime_error("Failed to open transmission1 file: " + transmission1File);
+    }
 
-    string transmission1ContentS((istreambuf_iterator<char>(transmission1)), istreambuf_iterator<char>());
-    string transmission2ContentS((istreambuf_iterator<char>(transmission2)), istreambuf_iterator<char>());
+    std::ifstream transmission2(transmission2File);
+    if (!transmission2.is_open()) {
+        throw std::runtime_error("Failed to open transmission2 file: " + transmission2File);
+    }
 
-    int len1 = transmission1ContentS.size();
-    int len2 = transmission2ContentS.size();
-    vector<vector<int>> longest(len1+1, vector<int>(len2+1,0));
-    int maxLen = 0;
-    int endRow = -1, endCol = -1;
+    std::string transmission1Content((std::istreambuf_iterator<char>(transmission1)), std::istreambuf_iterator<char>());
+    std::string transmission2Content((std::istreambuf_iterator<char>(transmission2)), std::istreambuf_iterator<char>());
+
+    if (transmission1Content.empty() || transmission2Content.empty()) {
+        return std::make_tuple(-1, -1, "");
+    }
+
+    int len1 = transmission1Content.size();
+    int len2 = transmission2Content.size();
+    std::vector<std::vector<int>> longest(len1 + 1, std::vector<int>(len2 + 1, 0));
+    int maxLen = 0, endRow = -1;
 
     for (int i = 1; i <= len1; i++) {
         for (int j = 1; j <= len2; j++) {
-            if (transmission1ContentS[i - 1] == transmission2ContentS[j - 1]) {
+            if (transmission1Content[i - 1] == transmission2Content[j - 1]) {
                 longest[i][j] = longest[i - 1][j - 1] + 1;
                 if (maxLen < longest[i][j]) {
                     maxLen = longest[i][j];
                     endRow = i;
-                    endCol = j;
                 }
-            } else {
-                longest[i][j] = 0;
             }
         }
     }
 
     if (maxLen == 0) {
-        cout << "There exists no common substring" << endl;
-        return make_tuple(-1, -1, "");
+        return std::make_tuple(-1, -1, "");
     }
 
-    string final_str(maxLen, '\0');
-    int row = endRow;
-    int col = endCol;
-
-    while (longest[row][col] != 0 && row > 0 && col > 0) {
-        final_str[--maxLen] = transmission1ContentS[row - 1];
-        row--;
-        col--;
-    }
-    return make_tuple(row+1, row+final_str.length(), final_str); 
+    std::string finalStr = transmission1Content.substr(endRow - maxLen, maxLen);
+    return std::make_tuple(endRow - maxLen + 1, endRow, finalStr);
 }
