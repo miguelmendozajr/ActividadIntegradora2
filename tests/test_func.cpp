@@ -1,7 +1,6 @@
 #include <catch2/catch_test_macros.hpp>
 #include <tuple>
 #include <string>
-#include <stdout>
 #include "func.h"
 
 
