@@ -73,16 +73,8 @@ int containsCode(const std::string& transmissionFile, const std::string& mcodeFi
     return -1; // mcode not found
 }
 
-std::tuple<int, int, std::string> findLongestPalindrome(const std::string& transmissionFile) {
-    std::ifstream transmission(transmissionFile);
-    if (!transmission.is_open()) {
-        throw std::runtime_error("Failed to open transmission file: " + transmissionFile);
-    }
 
-    std::string transmissionContent((std::istreambuf_iterator<char>(transmission)), std::istreambuf_iterator<char>());
-    if (transmissionContent.empty()) {
-        return std::make_tuple(-1, -1, "");
-    }
+std::tuple<int, int, std::string> findLongestPalindrome(const std::string& transmissionContent) {
 
     int maxLength = 0, start = 0, end = 0;
 
