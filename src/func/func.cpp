@@ -31,10 +31,10 @@ unsigned int factorial(unsigned int number) {
 }
 
 std::vector<int> computeLPS(const std::string& pattern) {
-    const size_t m = pattern.length();
+    size_t m = pattern.length();
     std::vector<int> lps(m, 0);
     int len = 0;
-    size_t i = 1;
+    int i = 1;
 
     while (i < m) {
         if (pattern[i] == pattern[len]) {
@@ -59,8 +59,8 @@ int containsCode(const std::string& transmissionContent, const std::string& mcod
 
     std::vector<int> lps = computeLPS(mcodeContent);
 
-    int i = 0;
-    int j = 0;
+    int i = 0; // index for transmissionContent
+    int j = 0; // index for mcodeContent
 
     while (i < n) {
         if (mcodeContent[j] == transmissionContent[i]) {
@@ -69,7 +69,7 @@ int containsCode(const std::string& transmissionContent, const std::string& mcod
         }
 
         if (j == m) {
-            return i - j + 1;
+            return i - j + 1; // mcode found, return the starting index
         } else if (i < n && mcodeContent[j] != transmissionContent[i]) {
             if (j != 0) {
                 j = lps[j - 1];
@@ -79,7 +79,7 @@ int containsCode(const std::string& transmissionContent, const std::string& mcod
         }
     }
 
-    return -1;
+    return -1; // mcode not found
 }
 
 
