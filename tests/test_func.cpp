@@ -48,11 +48,11 @@ TEST_CASE("Parte 1") {
 }
 
 TEST_CASE("Parte 1 - 2") {
-    REQUIRE(containsCode(transmission1File, mcode1File) == -1);
+    REQUIRE(containsCode(transmission1File, mcode2File) == -1);
 }
 
 TEST_CASE("Parte 1 - 3") {
-    REQUIRE(containsCode(transmission1File, mcode1File) == -1);
+    REQUIRE(containsCode(transmission1File, mcode3File) == -1);
 }
 
 TEST_CASE("Parte 1 - 4") {
@@ -60,9 +60,9 @@ TEST_CASE("Parte 1 - 4") {
 }
 
 TEST_CASE("Parte 1 - 5") {
-    REQUIRE(containsCode(transmission2File, mcode1File) == 1);
+    REQUIRE(containsCode(transmission2File, mcode2File) == 1);
 }
 
 TEST_CASE("Parte 1 - 6") {
-    REQUIRE(containsCode(transmission2File, mcode1File) == 1786);
+    REQUIRE(containsCode(transmission2File, mcode3File) == 1786);
 }
