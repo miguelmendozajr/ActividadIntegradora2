@@ -53,24 +53,24 @@ std::vector<int> computeLPS(const std::string& pattern) {
     return lps;
 }
 
-int containsCode(const std::string& transmissionContent, const std::string& mcodeContent) {
+int containsCode(const std::string& transmissionContent, const std::string& codeContent) {
     size_t n = transmissionContent.length();
-    size_t m = mcodeContent.length();
+    size_t m = codeContent.length();
 
-    std::vector<int> lps = computeLPS(mcodeContent);
+    std::vector<int> lps = computeLPS(codeContent);
 
     int i = 0; // index for transmissionContent
     int j = 0; // index for mcodeContent
 
     while (i < n) {
-        if (mcodeContent[j] == transmissionContent[i]) {
+        if (codeContent[j] == transmissionContent[i]) {
             j++;
             i++;
         }
 
         if (j == m) {
             return i - j + 1; // mcode found, return the starting index
-        } else if (i < n && mcodeContent[j] != transmissionContent[i]) {
+        } else if (i < n && codeContent[j] != transmissionContent[i]) {
             if (j != 0) {
                 j = lps[j - 1];
             } else {

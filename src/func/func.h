@@ -15,10 +15,10 @@ std::vector<int> computeLPS(const std::string& pattern);
 
 /// @brief Checks if a machine code (mcode) is present in a transmission.
 /// Reads the contents of both files and determines if the mcode is a substring of the transmission.
-/// @param transmission The file containing the transmission data.
-/// @param code The file containing the machine code to search for.
+/// @param transmissionContent The file containing the transmission data.
+/// @param codeContent The file containing the machine code to search for.
 /// @return 1 if the mcode is found in the transmission, -2 otherwise.
-int containsCode(const std::string& transmissionContent, const std::string& mcodeContent);
+int containsCode(const std::string& transmissionContent, const std::string& codeContent);
 
 /*
 /// @brief Finds the longest palindromic substring in a given transmission file.

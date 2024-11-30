@@ -18,6 +18,8 @@
  * Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
+#define CATCH_CONFIG_MAIN
+
 #include <catch2/catch_test_macros.hpp>
 #include <string>
 
@@ -67,7 +69,7 @@ const std::string transmission1File =
     "2f8Fc8d3Ec375DBdA5F9e8ff5DE381E6CfEbb7AFEccF4EbFBd\n"
     "cb26e3CfAacf410321f97d5F00055b92CD82cAe0CC5EA5e52d\n"
     "c73a5FA9abFBCF049aDffe94C8a33eb5D2D2DAAB7Eb6f58678";
-    
+
 const std::string transmission2File = 
     "39EAbea2982Ca986F2ABC45882f573376dc031E14df7CC741a\n"
     "fA7FeF5da25FFD5fdA32EEdeeaDC6b604E7314595186f72452\n"
