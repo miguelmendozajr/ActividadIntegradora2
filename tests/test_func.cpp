@@ -19,6 +19,10 @@
  */
 
 #include <catch2/catch_test_macros.hpp>
+#include <fstream>
+#include <sstream>
+#include <string>
+
 #include "func.h"
 
 
@@ -41,6 +45,16 @@ TEST_CASE("factorial") {
     REQUIRE(factorial(12) == 479001600); // 12! = 479001600
 }
 
+std::string readFileToString(const std::string& filePath) {
+    std::ifstream file(filePath);
+    if (!file.is_open()) {
+        throw std::runtime_error("Could not open file: " + filePath);
+    }
+
+    std::ostringstream buffer;
+    buffer << file.rdbuf(); // Read the file into the buffer
+    return buffer.str();
+}
 
 TEST_CASE("contains code") {
     // Test case 1: Basic match
@@ -68,4 +82,20 @@ TEST_CASE("contains code") {
     const std::string transmission13 = "BBBBBB";
     const std::string code13 = "A";
     REQUIRE(containsCode(transmission13, code13) == -1);
+
+    const std::string transmissionPath = "../transmission1.txt";
+    const std::string codePath = "../mcode2.txt";
+
+    std::string transmission;
+    std::string code;
+
+    try {
+        transmission = readFileToString(transmissionPath);
+        code = readFileToString(codePath);
+    } catch (const std::exception& e) {
+        FAIL("Error reading files: " << e.what());
+    }
+
+    // Test case 1: Match within transmission
+    REQUIRE(containsCode(transmission, code) == -1);
 }
