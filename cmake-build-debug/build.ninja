@@ -611,8 +611,6 @@ build _deps/fmt-build/CMakeFiles/fmt.dir/src/format.cc.o: CXX_COMPILER__fmt_unsc
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/fmt-src/include
   OBJECT_DIR = _deps/fmt-build/CMakeFiles/fmt.dir
   OBJECT_FILE_DIR = _deps/fmt-build/CMakeFiles/fmt.dir/src
-  TARGET_COMPILE_PDB = _deps/fmt-build/CMakeFiles/fmt.dir/fmt.pdb
-  TARGET_PDB = _deps/fmt-build/libfmtd.pdb
 
 build _deps/fmt-build/CMakeFiles/fmt.dir/src/os.cc.o: CXX_COMPILER__fmt_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/fmt-src/src/os.cc || cmake_object_order_depends_target_fmt
   DEP_FILE = _deps/fmt-build/CMakeFiles/fmt.dir/src/os.cc.o.d
@@ -620,8 +618,6 @@ build _deps/fmt-build/CMakeFiles/fmt.dir/src/os.cc.o: CXX_COMPILER__fmt_unscanne
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/fmt-src/include
   OBJECT_DIR = _deps/fmt-build/CMakeFiles/fmt.dir
   OBJECT_FILE_DIR = _deps/fmt-build/CMakeFiles/fmt.dir/src
-  TARGET_COMPILE_PDB = _deps/fmt-build/CMakeFiles/fmt.dir/fmt.pdb
-  TARGET_PDB = _deps/fmt-build/libfmtd.pdb
 
 
 # =============================================================================
@@ -637,9 +633,8 @@ build _deps/fmt-build/libfmtd.a: CXX_STATIC_LIBRARY_LINKER__fmt_Debug _deps/fmt-
   OBJECT_DIR = _deps/fmt-build/CMakeFiles/fmt.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = _deps/fmt-build/CMakeFiles/fmt.dir/fmt.pdb
   TARGET_FILE = _deps/fmt-build/libfmtd.a
-  TARGET_PDB = _deps/fmt-build/libfmtd.pdb
+  TARGET_PDB = fmtd.a.dbg
 
 
 #############################################
@@ -739,8 +734,6 @@ build _deps/spdlog-build/CMakeFiles/spdlog.dir/src/spdlog.cpp.o: CXX_COMPILER__s
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/spdlog-src/include
   OBJECT_DIR = _deps/spdlog-build/CMakeFiles/spdlog.dir
   OBJECT_FILE_DIR = _deps/spdlog-build/CMakeFiles/spdlog.dir/src
-  TARGET_COMPILE_PDB = _deps/spdlog-build/CMakeFiles/spdlog.dir/spdlog.pdb
-  TARGET_PDB = _deps/spdlog-build/libspdlogd.pdb
 
 build _deps/spdlog-build/CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o: CXX_COMPILER__spdlog_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/spdlog-src/src/stdout_sinks.cpp || cmake_object_order_depends_target_spdlog
   DEFINES = -DSPDLOG_COMPILED_LIB
@@ -749,8 +742,6 @@ build _deps/spdlog-build/CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o: CXX_COMPI
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/spdlog-src/include
   OBJECT_DIR = _deps/spdlog-build/CMakeFiles/spdlog.dir
   OBJECT_FILE_DIR = _deps/spdlog-build/CMakeFiles/spdlog.dir/src
-  TARGET_COMPILE_PDB = _deps/spdlog-build/CMakeFiles/spdlog.dir/spdlog.pdb
-  TARGET_PDB = _deps/spdlog-build/libspdlogd.pdb
 
 build _deps/spdlog-build/CMakeFiles/spdlog.dir/src/color_sinks.cpp.o: CXX_COMPILER__spdlog_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/spdlog-src/src/color_sinks.cpp || cmake_object_order_depends_target_spdlog
   DEFINES = -DSPDLOG_COMPILED_LIB
@@ -759,8 +750,6 @@ build _deps/spdlog-build/CMakeFiles/spdlog.dir/src/color_sinks.cpp.o: CXX_COMPIL
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/spdlog-src/include
   OBJECT_DIR = _deps/spdlog-build/CMakeFiles/spdlog.dir
   OBJECT_FILE_DIR = _deps/spdlog-build/CMakeFiles/spdlog.dir/src
-  TARGET_COMPILE_PDB = _deps/spdlog-build/CMakeFiles/spdlog.dir/spdlog.pdb
-  TARGET_PDB = _deps/spdlog-build/libspdlogd.pdb
 
 build _deps/spdlog-build/CMakeFiles/spdlog.dir/src/file_sinks.cpp.o: CXX_COMPILER__spdlog_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/spdlog-src/src/file_sinks.cpp || cmake_object_order_depends_target_spdlog
   DEFINES = -DSPDLOG_COMPILED_LIB
@@ -769,8 +758,6 @@ build _deps/spdlog-build/CMakeFiles/spdlog.dir/src/file_sinks.cpp.o: CXX_COMPILE
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/spdlog-src/include
   OBJECT_DIR = _deps/spdlog-build/CMakeFiles/spdlog.dir
   OBJECT_FILE_DIR = _deps/spdlog-build/CMakeFiles/spdlog.dir/src
-  TARGET_COMPILE_PDB = _deps/spdlog-build/CMakeFiles/spdlog.dir/spdlog.pdb
-  TARGET_PDB = _deps/spdlog-build/libspdlogd.pdb
 
 build _deps/spdlog-build/CMakeFiles/spdlog.dir/src/async.cpp.o: CXX_COMPILER__spdlog_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/spdlog-src/src/async.cpp || cmake_object_order_depends_target_spdlog
   DEFINES = -DSPDLOG_COMPILED_LIB
@@ -779,8 +766,6 @@ build _deps/spdlog-build/CMakeFiles/spdlog.dir/src/async.cpp.o: CXX_COMPILER__sp
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/spdlog-src/include
   OBJECT_DIR = _deps/spdlog-build/CMakeFiles/spdlog.dir
   OBJECT_FILE_DIR = _deps/spdlog-build/CMakeFiles/spdlog.dir/src
-  TARGET_COMPILE_PDB = _deps/spdlog-build/CMakeFiles/spdlog.dir/spdlog.pdb
-  TARGET_PDB = _deps/spdlog-build/libspdlogd.pdb
 
 build _deps/spdlog-build/CMakeFiles/spdlog.dir/src/cfg.cpp.o: CXX_COMPILER__spdlog_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/spdlog-src/src/cfg.cpp || cmake_object_order_depends_target_spdlog
   DEFINES = -DSPDLOG_COMPILED_LIB
@@ -789,8 +774,6 @@ build _deps/spdlog-build/CMakeFiles/spdlog.dir/src/cfg.cpp.o: CXX_COMPILER__spdl
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/spdlog-src/include
   OBJECT_DIR = _deps/spdlog-build/CMakeFiles/spdlog.dir
   OBJECT_FILE_DIR = _deps/spdlog-build/CMakeFiles/spdlog.dir/src
-  TARGET_COMPILE_PDB = _deps/spdlog-build/CMakeFiles/spdlog.dir/spdlog.pdb
-  TARGET_PDB = _deps/spdlog-build/libspdlogd.pdb
 
 build _deps/spdlog-build/CMakeFiles/spdlog.dir/src/bundled_fmtlib_format.cpp.o: CXX_COMPILER__spdlog_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/spdlog-src/src/bundled_fmtlib_format.cpp || cmake_object_order_depends_target_spdlog
   DEFINES = -DSPDLOG_COMPILED_LIB
@@ -799,8 +782,6 @@ build _deps/spdlog-build/CMakeFiles/spdlog.dir/src/bundled_fmtlib_format.cpp.o: 
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/spdlog-src/include
   OBJECT_DIR = _deps/spdlog-build/CMakeFiles/spdlog.dir
   OBJECT_FILE_DIR = _deps/spdlog-build/CMakeFiles/spdlog.dir/src
-  TARGET_COMPILE_PDB = _deps/spdlog-build/CMakeFiles/spdlog.dir/spdlog.pdb
-  TARGET_PDB = _deps/spdlog-build/libspdlogd.pdb
 
 
 # =============================================================================
@@ -816,9 +797,8 @@ build _deps/spdlog-build/libspdlogd.a: CXX_STATIC_LIBRARY_LINKER__spdlog_Debug _
   OBJECT_DIR = _deps/spdlog-build/CMakeFiles/spdlog.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = _deps/spdlog-build/CMakeFiles/spdlog.dir/spdlog.pdb
   TARGET_FILE = _deps/spdlog-build/libspdlogd.a
-  TARGET_PDB = _deps/spdlog-build/libspdlogd.pdb
+  TARGET_PDB = spdlogd.a.dbg
 
 
 #############################################
@@ -1163,8 +1143,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/benchmark/catch_chrono
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/benchmark
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch_analyse.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/benchmark/detail/catch_analyse.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch_analyse.cpp.o.d
@@ -1172,8 +1150,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/benchmark/detail
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch_benchmark_function.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/benchmark/detail/catch_benchmark_function.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch_benchmark_function.cpp.o.d
@@ -1181,8 +1157,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/benchmark/detail
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch_run_for_at_least.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/benchmark/detail/catch_run_for_at_least.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch_run_for_at_least.cpp.o.d
@@ -1190,8 +1164,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/benchmark/detail
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch_stats.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/benchmark/detail/catch_stats.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch_stats.cpp.o.d
@@ -1199,8 +1171,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/benchmark/detail
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/generators/catch_generator_exception.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/generators/catch_generator_exception.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/generators/catch_generator_exception.cpp.o.d
@@ -1208,8 +1178,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/generators/catch_gener
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/generators
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/generators/catch_generators.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/generators/catch_generators.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/generators/catch_generators.cpp.o.d
@@ -1217,8 +1185,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/generators/catch_gener
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/generators
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/generators/catch_generators_random.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/generators/catch_generators_random.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/generators/catch_generators_random.cpp.o.d
@@ -1226,8 +1192,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/generators/catch_gener
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/generators
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_automake.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/reporters/catch_reporter_automake.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_automake.cpp.o.d
@@ -1235,8 +1199,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_report
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_common_base.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/reporters/catch_reporter_common_base.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_common_base.cpp.o.d
@@ -1244,8 +1206,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_report
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_compact.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/reporters/catch_reporter_compact.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_compact.cpp.o.d
@@ -1253,8 +1213,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_report
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_console.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/reporters/catch_reporter_console.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_console.cpp.o.d
@@ -1262,8 +1220,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_report
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_cumulative_base.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/reporters/catch_reporter_cumulative_base.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_cumulative_base.cpp.o.d
@@ -1271,8 +1227,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_report
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_event_listener.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/reporters/catch_reporter_event_listener.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_event_listener.cpp.o.d
@@ -1280,8 +1234,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_report
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_helpers.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/reporters/catch_reporter_helpers.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_helpers.cpp.o.d
@@ -1289,8 +1241,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_report
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_json.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/reporters/catch_reporter_json.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_json.cpp.o.d
@@ -1298,8 +1248,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_report
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_junit.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/reporters/catch_reporter_junit.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_junit.cpp.o.d
@@ -1307,8 +1255,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_report
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_multi.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/reporters/catch_reporter_multi.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_multi.cpp.o.d
@@ -1316,8 +1262,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_report
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_registrars.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/reporters/catch_reporter_registrars.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_registrars.cpp.o.d
@@ -1325,8 +1269,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_report
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_sonarqube.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/reporters/catch_reporter_sonarqube.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_sonarqube.cpp.o.d
@@ -1334,8 +1276,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_report
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_streaming_base.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/reporters/catch_reporter_streaming_base.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_streaming_base.cpp.o.d
@@ -1343,8 +1283,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_report
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_tap.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/reporters/catch_reporter_tap.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_tap.cpp.o.d
@@ -1352,8 +1290,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_report
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_teamcity.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/reporters/catch_reporter_teamcity.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_teamcity.cpp.o.d
@@ -1361,8 +1297,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_report
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_xml.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/reporters/catch_reporter_xml.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_xml.cpp.o.d
@@ -1370,8 +1304,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_report
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_capture.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_capture.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_capture.cpp.o.d
@@ -1379,8 +1311,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_inter
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_config.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_config.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_config.cpp.o.d
@@ -1388,8 +1318,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_inter
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_exception.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_exception.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_exception.cpp.o.d
@@ -1397,8 +1325,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_inter
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_generatortracker.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_generatortracker.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_generatortracker.cpp.o.d
@@ -1406,8 +1332,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_inter
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_registry_hub.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_registry_hub.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_registry_hub.cpp.o.d
@@ -1415,8 +1339,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_inter
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_reporter.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_reporter.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_reporter.cpp.o.d
@@ -1424,8 +1346,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_inter
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_reporter_factory.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_reporter_factory.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_reporter_factory.cpp.o.d
@@ -1433,8 +1353,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_inter
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_testcase.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_testcase.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_testcase.cpp.o.d
@@ -1442,8 +1360,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_inter
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_approx.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/catch_approx.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_approx.cpp.o.d
@@ -1451,8 +1367,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_approx.cpp.o: CX
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_assertion_result.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/catch_assertion_result.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_assertion_result.cpp.o.d
@@ -1460,8 +1374,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_assertion_result
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_config.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/catch_config.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_config.cpp.o.d
@@ -1469,8 +1381,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_config.cpp.o: CX
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_get_random_seed.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/catch_get_random_seed.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_get_random_seed.cpp.o.d
@@ -1478,8 +1388,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_get_random_seed.
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_message.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/catch_message.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_message.cpp.o.d
@@ -1487,8 +1395,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_message.cpp.o: C
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_registry_hub.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/catch_registry_hub.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_registry_hub.cpp.o.d
@@ -1496,8 +1402,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_registry_hub.cpp
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_session.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/catch_session.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_session.cpp.o.d
@@ -1505,8 +1409,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_session.cpp.o: C
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_tag_alias_autoregistrar.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/catch_tag_alias_autoregistrar.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_tag_alias_autoregistrar.cpp.o.d
@@ -1514,8 +1416,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_tag_alias_autore
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_test_case_info.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/catch_test_case_info.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_test_case_info.cpp.o.d
@@ -1523,8 +1423,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_test_case_info.c
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_test_spec.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/catch_test_spec.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_test_spec.cpp.o.d
@@ -1532,8 +1430,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_test_spec.cpp.o:
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_timer.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/catch_timer.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_timer.cpp.o.d
@@ -1541,8 +1437,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_timer.cpp.o: CXX
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_tostring.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/catch_tostring.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_tostring.cpp.o.d
@@ -1550,8 +1444,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_tostring.cpp.o: 
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_totals.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/catch_totals.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_totals.cpp.o.d
@@ -1559,8 +1451,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_totals.cpp.o: CX
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_translate_exception.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/catch_translate_exception.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_translate_exception.cpp.o.d
@@ -1568,8 +1458,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_translate_except
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_version.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/catch_version.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_version.cpp.o.d
@@ -1577,8 +1465,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_version.cpp.o: C
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_assertion_handler.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/internal/catch_assertion_handler.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_assertion_handler.cpp.o.d
@@ -1586,8 +1472,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_asserti
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_case_insensitive_comparisons.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/internal/catch_case_insensitive_comparisons.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_case_insensitive_comparisons.cpp.o.d
@@ -1595,8 +1479,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_case_in
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_clara.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/internal/catch_clara.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_clara.cpp.o.d
@@ -1604,8 +1486,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_clara.c
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_commandline.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/internal/catch_commandline.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_commandline.cpp.o.d
@@ -1613,8 +1493,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_command
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_console_colour.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/internal/catch_console_colour.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_console_colour.cpp.o.d
@@ -1622,8 +1500,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_console
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_context.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/internal/catch_context.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_context.cpp.o.d
@@ -1631,8 +1507,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_context
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_debug_console.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/internal/catch_debug_console.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_debug_console.cpp.o.d
@@ -1640,8 +1514,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_debug_c
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_debugger.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/internal/catch_debugger.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_debugger.cpp.o.d
@@ -1649,8 +1521,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_debugge
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_decomposer.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/internal/catch_decomposer.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_decomposer.cpp.o.d
@@ -1658,8 +1528,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_decompo
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_enforce.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/internal/catch_enforce.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_enforce.cpp.o.d
@@ -1667,8 +1535,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_enforce
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_enum_values_registry.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/internal/catch_enum_values_registry.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_enum_values_registry.cpp.o.d
@@ -1676,8 +1542,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_enum_va
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_errno_guard.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/internal/catch_errno_guard.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_errno_guard.cpp.o.d
@@ -1685,8 +1549,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_errno_g
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_exception_translator_registry.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/internal/catch_exception_translator_registry.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_exception_translator_registry.cpp.o.d
@@ -1694,8 +1556,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_excepti
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_fatal_condition_handler.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/internal/catch_fatal_condition_handler.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_fatal_condition_handler.cpp.o.d
@@ -1703,8 +1563,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_fatal_c
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_floating_point_helpers.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/internal/catch_floating_point_helpers.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_floating_point_helpers.cpp.o.d
@@ -1712,8 +1570,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_floatin
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_getenv.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/internal/catch_getenv.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_getenv.cpp.o.d
@@ -1721,8 +1577,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_getenv.
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_istream.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/internal/catch_istream.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_istream.cpp.o.d
@@ -1730,8 +1584,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_istream
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_jsonwriter.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/internal/catch_jsonwriter.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_jsonwriter.cpp.o.d
@@ -1739,8 +1591,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_jsonwri
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_lazy_expr.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/internal/catch_lazy_expr.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_lazy_expr.cpp.o.d
@@ -1748,8 +1598,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_lazy_ex
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_leak_detector.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/internal/catch_leak_detector.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_leak_detector.cpp.o.d
@@ -1757,8 +1605,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_leak_de
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_list.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/internal/catch_list.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_list.cpp.o.d
@@ -1766,8 +1612,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_list.cp
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_message_info.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/internal/catch_message_info.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_message_info.cpp.o.d
@@ -1775,8 +1619,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_message
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_output_redirect.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/internal/catch_output_redirect.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_output_redirect.cpp.o.d
@@ -1784,8 +1626,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_output_
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_parse_numbers.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/internal/catch_parse_numbers.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_parse_numbers.cpp.o.d
@@ -1793,8 +1633,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_parse_n
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_polyfills.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/internal/catch_polyfills.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_polyfills.cpp.o.d
@@ -1802,8 +1640,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_polyfil
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_random_number_generator.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/internal/catch_random_number_generator.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_random_number_generator.cpp.o.d
@@ -1811,8 +1647,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_random_
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_random_seed_generation.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/internal/catch_random_seed_generation.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_random_seed_generation.cpp.o.d
@@ -1820,8 +1654,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_random_
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_reporter_registry.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/internal/catch_reporter_registry.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_reporter_registry.cpp.o.d
@@ -1829,8 +1661,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_reporte
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_reporter_spec_parser.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/internal/catch_reporter_spec_parser.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_reporter_spec_parser.cpp.o.d
@@ -1838,8 +1668,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_reporte
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_result_type.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/internal/catch_result_type.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_result_type.cpp.o.d
@@ -1847,8 +1675,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_result_
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_reusable_string_stream.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/internal/catch_reusable_string_stream.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_reusable_string_stream.cpp.o.d
@@ -1856,8 +1682,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_reusabl
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_run_context.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/internal/catch_run_context.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_run_context.cpp.o.d
@@ -1865,8 +1689,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_run_con
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_section.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/internal/catch_section.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_section.cpp.o.d
@@ -1874,8 +1696,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_section
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_singletons.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/internal/catch_singletons.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_singletons.cpp.o.d
@@ -1883,8 +1703,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_singlet
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_source_line_info.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/internal/catch_source_line_info.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_source_line_info.cpp.o.d
@@ -1892,8 +1710,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_source_
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_startup_exception_registry.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/internal/catch_startup_exception_registry.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_startup_exception_registry.cpp.o.d
@@ -1901,8 +1717,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_startup
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_stdstreams.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/internal/catch_stdstreams.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_stdstreams.cpp.o.d
@@ -1910,8 +1724,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_stdstre
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_string_manip.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/internal/catch_string_manip.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_string_manip.cpp.o.d
@@ -1919,8 +1731,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_string_
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_stringref.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/internal/catch_stringref.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_stringref.cpp.o.d
@@ -1928,8 +1738,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_stringr
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_tag_alias_registry.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/internal/catch_tag_alias_registry.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_tag_alias_registry.cpp.o.d
@@ -1937,8 +1745,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_tag_ali
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_case_info_hasher.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/internal/catch_test_case_info_hasher.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_case_info_hasher.cpp.o.d
@@ -1946,8 +1752,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_ca
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_case_registry_impl.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/internal/catch_test_case_registry_impl.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_case_registry_impl.cpp.o.d
@@ -1955,8 +1759,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_ca
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_case_tracker.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/internal/catch_test_case_tracker.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_case_tracker.cpp.o.d
@@ -1964,8 +1766,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_ca
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_failure_exception.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/internal/catch_test_failure_exception.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_failure_exception.cpp.o.d
@@ -1973,8 +1773,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_fa
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_registry.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/internal/catch_test_registry.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_registry.cpp.o.d
@@ -1982,8 +1780,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_re
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_spec_parser.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/internal/catch_test_spec_parser.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_spec_parser.cpp.o.d
@@ -1991,8 +1787,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_sp
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_textflow.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/internal/catch_textflow.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_textflow.cpp.o.d
@@ -2000,8 +1794,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_textflo
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_uncaught_exceptions.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/internal/catch_uncaught_exceptions.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_uncaught_exceptions.cpp.o.d
@@ -2009,8 +1801,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_uncaugh
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_wildcard_pattern.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/internal/catch_wildcard_pattern.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_wildcard_pattern.cpp.o.d
@@ -2018,8 +1808,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_wildcar
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_xmlwriter.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/internal/catch_xmlwriter.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_xmlwriter.cpp.o.d
@@ -2027,8 +1815,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_xmlwrit
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/matchers/catch_matchers.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers.cpp.o.d
@@ -2036,8 +1822,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matcher
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_container_properties.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/matchers/catch_matchers_container_properties.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_container_properties.cpp.o.d
@@ -2045,8 +1829,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matcher
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_exception.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/matchers/catch_matchers_exception.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_exception.cpp.o.d
@@ -2054,8 +1836,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matcher
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_floating_point.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/matchers/catch_matchers_floating_point.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_floating_point.cpp.o.d
@@ -2063,8 +1843,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matcher
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_predicate.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/matchers/catch_matchers_predicate.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_predicate.cpp.o.d
@@ -2072,8 +1850,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matcher
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_quantifiers.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/matchers/catch_matchers_quantifiers.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_quantifiers.cpp.o.d
@@ -2081,8 +1857,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matcher
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_string.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/matchers/catch_matchers_string.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_string.cpp.o.d
@@ -2090,8 +1864,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matcher
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_templated.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/matchers/catch_matchers_templated.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_templated.cpp.o.d
@@ -2099,8 +1871,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matcher
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/internal/catch_matchers_impl.cpp.o: CXX_COMPILER__Catch2_unscanned_Debug /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/matchers/internal/catch_matchers_impl.cpp || cmake_object_order_depends_target_Catch2
   DEP_FILE = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/internal/catch_matchers_impl.cpp.o.d
@@ -2108,8 +1878,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/internal/catc
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/internal
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
 
 
 # =============================================================================
@@ -2125,9 +1893,8 @@ build _deps/catch2-build/src/libCatch2d.a: CXX_STATIC_LIBRARY_LINKER__Catch2_Deb
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2.pdb
   TARGET_FILE = _deps/catch2-build/src/libCatch2d.a
-  TARGET_PDB = _deps/catch2-build/src/libCatch2d.pdb
+  TARGET_PDB = Catch2d.a.dbg
 
 # =============================================================================
 # Object build statements for STATIC_LIBRARY target Catch2WithMain
@@ -2144,8 +1911,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/catch2/internal/catch
   INCLUDES = -isystem /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -isystem /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir
   OBJECT_FILE_DIR = _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/catch2/internal
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/Catch2WithMain.pdb
-  TARGET_PDB = _deps/catch2-build/src/libCatch2Maind.pdb
 
 
 # =============================================================================
@@ -2161,9 +1926,8 @@ build _deps/catch2-build/src/libCatch2Maind.a: CXX_STATIC_LIBRARY_LINKER__Catch2
   OBJECT_DIR = _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/Catch2WithMain.pdb
   TARGET_FILE = _deps/catch2-build/src/libCatch2Maind.a
-  TARGET_PDB = _deps/catch2-build/src/libCatch2Maind.pdb
+  TARGET_PDB = Catch2Maind.a.dbg
 
 
 #############################################
@@ -2509,8 +2273,6 @@ build src/func/CMakeFiles/Func.dir/func.cpp.o: CXX_COMPILER__Func_unscanned_Debu
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/src/func/. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/configured_files/include -isystem /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/json-src/include -isystem /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/fmt-src/include -isystem /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/spdlog-src/include -isystem /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/cxxopts-src/include
   OBJECT_DIR = src/func/CMakeFiles/Func.dir
   OBJECT_FILE_DIR = src/func/CMakeFiles/Func.dir
-  TARGET_COMPILE_PDB = src/func/CMakeFiles/Func.dir/Func.pdb
-  TARGET_PDB = src/func/libFunc.pdb
 
 
 # =============================================================================
@@ -2526,9 +2288,8 @@ build src/func/libFunc.a: CXX_STATIC_LIBRARY_LINKER__Func_Debug src/func/CMakeFi
   OBJECT_DIR = src/func/CMakeFiles/Func.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = src/func/CMakeFiles/Func.dir/Func.pdb
   TARGET_FILE = src/func/libFunc.a
-  TARGET_PDB = src/func/libFunc.pdb
+  TARGET_PDB = Func.a.dbg
 
 
 #############################################
@@ -2628,8 +2389,6 @@ build app/CMakeFiles/main.dir/main.cpp.o: CXX_COMPILER__main_unscanned_Debug /Us
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/src/func/. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/configured_files/include -isystem /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/json-src/include -isystem /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/fmt-src/include -isystem /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/spdlog-src/include -isystem /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/cxxopts-src/include
   OBJECT_DIR = app/CMakeFiles/main.dir
   OBJECT_FILE_DIR = app/CMakeFiles/main.dir
-  TARGET_COMPILE_PDB = app/CMakeFiles/main.dir/
-  TARGET_PDB = app/main.pdb
 
 
 # =============================================================================
@@ -2645,9 +2404,8 @@ build app/main: CXX_EXECUTABLE_LINKER__main_Debug app/CMakeFiles/main.dir/main.c
   OBJECT_DIR = app/CMakeFiles/main.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = app/CMakeFiles/main.dir/
   TARGET_FILE = app/main
-  TARGET_PDB = app/main.pdb
+  TARGET_PDB = main.dbg
 
 
 #############################################
@@ -2746,8 +2504,6 @@ build tests/CMakeFiles/UnitTestFoo.dir/test_func.cpp.o: CXX_COMPILER__UnitTestFo
   INCLUDES = -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/src/func/. -I/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/configured_files/include -isystem /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/src/catch2/.. -isystem /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-build/generated-includes
   OBJECT_DIR = tests/CMakeFiles/UnitTestFoo.dir
   OBJECT_FILE_DIR = tests/CMakeFiles/UnitTestFoo.dir
-  TARGET_COMPILE_PDB = tests/CMakeFiles/UnitTestFoo.dir/
-  TARGET_PDB = tests/UnitTestFoo.pdb
 
 
 # =============================================================================
@@ -2764,9 +2520,8 @@ build tests/UnitTestFoo tests/UnitTestFoo-b12d07c_tests.cmake | ${cmake_ninja_wo
   POST_BUILD = cd /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/tests && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -D TEST_TARGET=UnitTestFoo -D TEST_EXECUTABLE=/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/tests/UnitTestFoo -D TEST_EXECUTOR= -D TEST_WORKING_DIR=/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/tests -D TEST_SPEC= -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_LIST=UnitTestFoo_TESTS -D TEST_REPORTER= -D TEST_OUTPUT_DIR= -D TEST_OUTPUT_PREFIX= -D TEST_OUTPUT_SUFFIX= -D TEST_DL_PATHS= -D CTEST_FILE=/Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/tests/UnitTestFoo-b12d07c_tests.cmake -P /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/catch2-src/extras/CatchAddTests.cmake
   PRE_LINK = :
   RESTAT = 1
-  TARGET_COMPILE_PDB = tests/CMakeFiles/UnitTestFoo.dir/
   TARGET_FILE = tests/UnitTestFoo
-  TARGET_PDB = tests/UnitTestFoo.pdb
+  TARGET_PDB = UnitTestFoo.dbg
 
 
 #############################################
@@ -2980,14 +2735,14 @@ build tests/all: phony tests/UnitTestFoo
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeCCompiler.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeCCompilerABI.c /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeCXXCompiler.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeCompilerIdDetection.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeDependentOption.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeDetermineCompileFeatures.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeDetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeFindBinUtils.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakePackageConfigHelpers.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeParseArguments.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeParseImplicitIncludeInfo.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeParseImplicitLinkInfo.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeParseLibraryArchitecture.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeSystem.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeTestCompilerCommon.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CTest.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CTestTargets.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CTestUseLaunchers.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CheckCXXCompilerFlag.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CheckCXXSourceCompiles.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CheckIPOSupported.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CheckIPOSupported/CMakeLists-C.txt.in /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CheckIPOSupported/CMakeLists-CXX.txt.in /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CheckIPOSupported/foo.c /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CheckIPOSupported/foo.cpp /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CheckIPOSupported/main.c /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CheckIPOSupported/main.cpp /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CheckIncludeFile.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CheckLibraryExists.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/ADSP-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/ARMCC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/ARMClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/AppleClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/Borland-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/Cray-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/CrayClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/GHS-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/GNU-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/HP-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/IAR-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/Intel-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/LCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/MSVC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/NVHPC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/OrangeC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/PGI-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/PathScale-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/SCO-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/TI-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/TIClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/Tasking-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/Watcom-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/XL-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/zOS-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/DartConfiguration.tcl.in /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/ExternalProject.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/ExternalProject/shared_internal_commands.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/FetchContent.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/FetchContent/CMakeLists.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/FindDoxygen.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/FindGit.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/FindPackageMessage.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/FindThreads.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/GNUInstallDirs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Internal/CheckCompilerFlag.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Internal/CheckFlagCommonConfig.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Darwin-Determine-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/UnixPaths.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/WriteBasicConfigVersionFile.cmake /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/CMakeLists.txt /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/app/CMakeLists.txt /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake/AddGitSubmodule.cmake /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake/CPM.cmake /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake/ConfigSafeGuards.cmake /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake/Docs.cmake /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake/LTO.cmake /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake/Tools.cmake /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake/Warnings.cmake /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/configured/CMakeLists.txt /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/configured/config.hpp.in /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/external/CMakeLists.txt /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/src/CMakeLists.txt /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/src/func/CMakeLists.txt /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/tests/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeCXXCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake _deps/catch2-src/CMake/CatchConfigOptions.cmake _deps/catch2-src/CMake/CatchMiscFunctions.cmake _deps/catch2-src/CMakeLists.txt _deps/catch2-src/extras/Catch.cmake _deps/catch2-src/src/CMakeLists.txt _deps/catch2-src/src/catch2/catch_user_config.hpp.in _deps/cxxopts-src/CMakeLists.txt _deps/cxxopts-src/cmake/cxxopts.cmake _deps/cxxopts-src/include/CMakeLists.txt _deps/fmt-src/CMakeLists.txt _deps/fmt-src/support/cmake/JoinPaths.cmake _deps/fmt-src/support/cmake/cxx14.cmake _deps/json-src/CMakeLists.txt _deps/json-src/cmake/config.cmake.in _deps/json-src/cmake/nlohmann_jsonConfigVersion.cmake.in _deps/json-src/cmake/pkg-config.pc.in _deps/spdlog-src/CMakeLists.txt _deps/spdlog-src/cmake/ide.cmake _deps/spdlog-src/cmake/utils.cmake
+build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeDependentOption.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakePackageConfigHelpers.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeParseArguments.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CTest.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CTestTargets.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CTestUseLaunchers.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CheckCXXCompilerFlag.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CheckCXXSourceCompiles.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CheckIPOSupported.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CheckIPOSupported/CMakeLists-C.txt.in /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CheckIPOSupported/CMakeLists-CXX.txt.in /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CheckIPOSupported/foo.c /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CheckIPOSupported/foo.cpp /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CheckIPOSupported/main.c /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CheckIPOSupported/main.cpp /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CheckIncludeFile.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CheckLibraryExists.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/DartConfiguration.tcl.in /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/ExternalProject.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/ExternalProject/shared_internal_commands.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/FetchContent.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/FetchContent/CMakeLists.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/FindDoxygen.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/FindGit.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/FindPackageMessage.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/FindThreads.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/GNUInstallDirs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Internal/CheckCompilerFlag.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Internal/CheckFlagCommonConfig.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/UnixPaths.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/WriteBasicConfigVersionFile.cmake /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/CMakeLists.txt /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/app/CMakeLists.txt /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake/AddGitSubmodule.cmake /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake/CPM.cmake /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake/ConfigSafeGuards.cmake /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake/Docs.cmake /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake/LTO.cmake /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake/Tools.cmake /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake/Warnings.cmake /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/configured/CMakeLists.txt /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/configured/config.hpp.in /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/external/CMakeLists.txt /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/src/CMakeLists.txt /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/src/func/CMakeLists.txt /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/tests/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeCXXCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake _deps/catch2-src/CMake/CatchConfigOptions.cmake _deps/catch2-src/CMake/CatchMiscFunctions.cmake _deps/catch2-src/CMakeLists.txt _deps/catch2-src/extras/Catch.cmake _deps/catch2-src/src/CMakeLists.txt _deps/catch2-src/src/catch2/catch_user_config.hpp.in _deps/cxxopts-src/CMakeLists.txt _deps/cxxopts-src/cmake/cxxopts.cmake _deps/cxxopts-src/include/CMakeLists.txt _deps/fmt-src/CMakeLists.txt _deps/fmt-src/support/cmake/JoinPaths.cmake _deps/fmt-src/support/cmake/cxx14.cmake _deps/json-src/CMakeLists.txt _deps/json-src/cmake/config.cmake.in _deps/json-src/cmake/nlohmann_jsonConfigVersion.cmake.in _deps/json-src/cmake/pkg-config.pc.in _deps/spdlog-src/CMakeLists.txt _deps/spdlog-src/cmake/ide.cmake _deps/spdlog-src/cmake/utils.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeCCompiler.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeCCompilerABI.c /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeCXXCompiler.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeCompilerIdDetection.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeDependentOption.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeDetermineCompileFeatures.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeDetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeFindBinUtils.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakePackageConfigHelpers.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeParseArguments.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeParseImplicitIncludeInfo.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeParseImplicitLinkInfo.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeParseLibraryArchitecture.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeSystem.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeTestCompilerCommon.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CTest.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CTestTargets.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CTestUseLaunchers.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CheckCXXCompilerFlag.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CheckCXXSourceCompiles.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CheckIPOSupported.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CheckIPOSupported/CMakeLists-C.txt.in /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CheckIPOSupported/CMakeLists-CXX.txt.in /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CheckIPOSupported/foo.c /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CheckIPOSupported/foo.cpp /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CheckIPOSupported/main.c /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CheckIPOSupported/main.cpp /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CheckIncludeFile.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CheckLibraryExists.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/ADSP-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/ARMCC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/ARMClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/AppleClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/Borland-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/Cray-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/CrayClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/GHS-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/GNU-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/HP-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/IAR-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/Intel-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/LCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/MSVC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/NVHPC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/OrangeC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/PGI-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/PathScale-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/SCO-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/TI-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/TIClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/Tasking-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/Watcom-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/XL-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/zOS-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/DartConfiguration.tcl.in /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/ExternalProject.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/ExternalProject/shared_internal_commands.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/FetchContent.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/FetchContent/CMakeLists.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/FindDoxygen.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/FindGit.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/FindPackageMessage.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/FindThreads.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/GNUInstallDirs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Internal/CheckCompilerFlag.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Internal/CheckFlagCommonConfig.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Darwin-Determine-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/UnixPaths.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/WriteBasicConfigVersionFile.cmake /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/CMakeLists.txt /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/app/CMakeLists.txt /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake/AddGitSubmodule.cmake /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake/CPM.cmake /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake/ConfigSafeGuards.cmake /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake/Docs.cmake /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake/LTO.cmake /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake/Tools.cmake /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake/Warnings.cmake /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/configured/CMakeLists.txt /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/configured/config.hpp.in /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/external/CMakeLists.txt /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/src/CMakeLists.txt /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/src/func/CMakeLists.txt /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/tests/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeCXXCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake _deps/catch2-src/CMake/CatchConfigOptions.cmake _deps/catch2-src/CMake/CatchMiscFunctions.cmake _deps/catch2-src/CMakeLists.txt _deps/catch2-src/extras/Catch.cmake _deps/catch2-src/src/CMakeLists.txt _deps/catch2-src/src/catch2/catch_user_config.hpp.in _deps/cxxopts-src/CMakeLists.txt _deps/cxxopts-src/cmake/cxxopts.cmake _deps/cxxopts-src/include/CMakeLists.txt _deps/fmt-src/CMakeLists.txt _deps/fmt-src/support/cmake/JoinPaths.cmake _deps/fmt-src/support/cmake/cxx14.cmake _deps/json-src/CMakeLists.txt _deps/json-src/cmake/config.cmake.in _deps/json-src/cmake/nlohmann_jsonConfigVersion.cmake.in _deps/json-src/cmake/pkg-config.pc.in _deps/spdlog-src/CMakeLists.txt _deps/spdlog-src/cmake/ide.cmake _deps/spdlog-src/cmake/utils.cmake: phony
+build /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeDependentOption.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakePackageConfigHelpers.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeParseArguments.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CTest.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CTestTargets.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CTestUseLaunchers.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CheckCXXCompilerFlag.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CheckCXXSourceCompiles.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CheckIPOSupported.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CheckIPOSupported/CMakeLists-C.txt.in /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CheckIPOSupported/CMakeLists-CXX.txt.in /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CheckIPOSupported/foo.c /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CheckIPOSupported/foo.cpp /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CheckIPOSupported/main.c /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CheckIPOSupported/main.cpp /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CheckIncludeFile.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CheckLibraryExists.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/DartConfiguration.tcl.in /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/ExternalProject.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/ExternalProject/shared_internal_commands.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/FetchContent.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/FetchContent/CMakeLists.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/FindDoxygen.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/FindGit.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/FindPackageMessage.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/FindThreads.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/GNUInstallDirs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Internal/CheckCompilerFlag.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Internal/CheckFlagCommonConfig.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/UnixPaths.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/WriteBasicConfigVersionFile.cmake /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/CMakeLists.txt /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/app/CMakeLists.txt /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake/AddGitSubmodule.cmake /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake/CPM.cmake /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake/ConfigSafeGuards.cmake /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake/Docs.cmake /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake/LTO.cmake /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake/Tools.cmake /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake/Warnings.cmake /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/configured/CMakeLists.txt /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/configured/config.hpp.in /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/external/CMakeLists.txt /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/src/CMakeLists.txt /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/src/func/CMakeLists.txt /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/tests/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeCXXCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake _deps/catch2-src/CMake/CatchConfigOptions.cmake _deps/catch2-src/CMake/CatchMiscFunctions.cmake _deps/catch2-src/CMakeLists.txt _deps/catch2-src/extras/Catch.cmake _deps/catch2-src/src/CMakeLists.txt _deps/catch2-src/src/catch2/catch_user_config.hpp.in _deps/cxxopts-src/CMakeLists.txt _deps/cxxopts-src/cmake/cxxopts.cmake _deps/cxxopts-src/include/CMakeLists.txt _deps/fmt-src/CMakeLists.txt _deps/fmt-src/support/cmake/JoinPaths.cmake _deps/fmt-src/support/cmake/cxx14.cmake _deps/json-src/CMakeLists.txt _deps/json-src/cmake/config.cmake.in _deps/json-src/cmake/nlohmann_jsonConfigVersion.cmake.in _deps/json-src/cmake/pkg-config.pc.in _deps/spdlog-src/CMakeLists.txt _deps/spdlog-src/cmake/ide.cmake _deps/spdlog-src/cmake/utils.cmake: phony
 
 
 #############################################
