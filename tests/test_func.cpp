@@ -83,8 +83,8 @@ TEST_CASE("contains code") {
     const std::string code13 = "A";
     REQUIRE(containsCode(transmission13, code13) == -1);
 
-    const std::string transmissionPath = "../transmission1.txt";
-    const std::string codePath = "../mcode2.txt";
+    const std::string transmissionPath = "transmission1.txt";
+    const std::string codePath = "mcode2.txt";
 
     std::string transmission;
     std::string code;
