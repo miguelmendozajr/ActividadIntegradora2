@@ -40,12 +40,26 @@ TEST_CASE("factorial") {
     REQUIRE(factorial(4) == 24);
 }
 
-
 TEST_CASE("Parte 1 - 1") {
     REQUIRE(containsCode(transmission1, code1) == 1276);
+}
+
+TEST_CASE("Parte 1 - 2") {
     REQUIRE(containsCode(transmission1, code2) == -1);
+}
+
+TEST_CASE("Parte 1 - 3") {
     REQUIRE(containsCode(transmission1, code3) == -1);
+}
+
+TEST_CASE("Parte 1 - 4") {
     REQUIRE(containsCode(transmission2, code1) == -1);
+}
+
+TEST_CASE("Parte 1 - 5") {
     REQUIRE(containsCode(transmission2, code2) == 1);
+}
+
+TEST_CASE("Parte 1 - 6") {
     REQUIRE(containsCode(transmission2, code3) == 1786);
 }
