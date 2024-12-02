@@ -10,7 +10,12 @@
 
 using namespace std;
 
-// Config Constants
+
+bool bfs(const vector<vector<int>>& residualGraph, int source, int sink, vector<int>& parent);
+
+int calculateMaxFlow(int numNodes, const vector<vector<int>>& capacities);
+
+/*
 namespace Config {
     const int MIN_NODES = 1;
     const int MAX_NODES = 1000;
@@ -18,7 +23,6 @@ namespace Config {
     const double EPSILON = 1e-10;
 }
 
-// Point Structure
 struct Point {
     int x, y;
 
@@ -42,8 +46,6 @@ struct Point {
         return oss.str();
     }
 };
-
-// Edge Structure
 struct Edge {
     int sourceNode;
     int destinationNode;
@@ -60,28 +62,12 @@ struct Edge {
         return weight < other.weight;
     }
 };
-
-// Disjoint Set Functions for Kruskal's Algorithm
 vector<int> initializeDisjointSet(int size);
-
 int find(int x, vector<int>& parent);
-
 void unite(int x, int y, vector<int>& parent, vector<int>& rank);
-
-// BFS Function for Max Flow Calculation
 bool bfs(const vector<vector<int>>& residualGraph, int source, int sink, vector<int>& parent);
-
-// Function to read matrix from standard input
 vector<vector<int>> readMatrix(int numNodes, const string& matrixName);
-
-// Function to calculate the optimal cabling
 vector<Edge> calculateOptimalCabling(int numNodes, const vector<vector<int>>& distances);
-
-// Function to calculate delivery route
 vector<int> calculateDeliveryRoute(int numNodes, const vector<vector<int>>& distances);
-
-// Function to calculate max flow
-int calculateMaxFlow(int numNodes, const vector<vector<int>>& capacities);
-
-// Function to find the nearest center
 Point findNearestCenter(const vector<Point>& centers, Point location);
+*/

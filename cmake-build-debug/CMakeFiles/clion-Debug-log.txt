@@ -1,27 +1,29 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -G Ninja -S /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora -B /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug
+/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "Unix Makefiles" -S /Users/miguelmendoza/Desktop/integradora2/ActividadIntegradora -B /Users/miguelmendoza/Desktop/integradora2/ActividadIntegradora/cmake-build-debug
+-- The C compiler identification is AppleClang 16.0.0.16000026
+-- The CXX compiler identification is AppleClang 16.0.0.16000026
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
 -- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
 -- Using CPM
 -- CPM: Adding package json@3.11.3 (v3.11.3)
--- Using the multi-header code from /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/json-src/include/
--- CPM: Adding package fmt@9.1.0 (9.1.0)
--- Module support is disabled.
--- Version: 9.1.0
--- Build type: Debug
--- CXX_STANDARD: 20
--- Required features: cxx_variadic_templates
--- CPM: Adding package spdlog@1.13.0 (v1.13.0)
--- Build spdlog: 1.13.0
--- Build type: Debug
--- CPM: Adding package cxxopts@3.1.1 (v3.1.1)
--- CPM: Adding package Catch2@3.5.3 (v3.5.3)
--- Warnings Active for: Func
--- Warnings as Errors: OFF
--- IPO/LTO is supported: Func
--- Warnings Active for: main
--- Warnings as Errors: OFF
--- IPO/LTO is supported: main
--- Warnings Active for: UnitTestFoo
--- Warnings as Errors: OFF
--- Configuring done (3.2s)
--- Generating done (0.0s)
--- Build files have been written to: /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug
+CMake Error: The current CMakeCache.txt directory /Users/miguelmendoza/Desktop/integradora2/ActividadIntegradora/cmake-build-debug/_deps/json-subbuild/CMakeCache.txt is different than the directory /Users/miguelmendoza/Documents/Tec/4th/ActividadIntegradora/cmake-build-debug/_deps/json-subbuild where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+
+CMake Error at /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/FetchContent.cmake:1702 (message):
+  CMake step for json failed: 1
+Call Stack (most recent call first):
+  /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/FetchContent.cmake:1854:EVAL:2 (__FetchContent_directPopulate)
+  /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/FetchContent.cmake:1854 (cmake_language)
+  cmake/CPM.cmake:1127 (FetchContent_Populate)
+  cmake/CPM.cmake:920 (cpm_fetch_package)
+  CMakeLists.txt:76 (cpmaddpackage)
+
+
+-- Configuring incomplete, errors occurred!

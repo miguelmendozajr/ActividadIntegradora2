@@ -1,23 +1,3 @@
-/*
- * SonarQube, open source software quality management tool.
- * Copyright (C) 2008-2013 SonarSource
- * http://github.com/SonarOpenCommunity/sonar-cxx
- *
- * SonarQube is free software; you can redistribute it and/or
- * modify it under the terms of the GNU Lesser General Public
- * License as published by the Free Software Foundation; either
- * version 3 of the License, or (at your option) any later version.
- *
- * SonarQube is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- * Lesser General Public License for more details.
- *
- * You should have received a copy of the GNU Lesser General Public License
- * along with this program; if not, write to the Free Software Foundation,
- * Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
- */
-
 /* This source file must have a .cpp extension so that all C++ compilers
    recognize the extension without flags.  Borland does not know .cxx for
    example.  */
@@ -429,16 +409,7 @@
 #  define COMPILER_VERSION_MINOR DEC(((__VER__) / 1000) % 1000)
 #  define COMPILER_VERSION_PATCH DEC((__VER__) % 1000)
 #  define COMPILER_VERSION_INTERNAL DEC(__IAR_SYSTEMS_ICC__)
-# elif defined(__VER__) && 
-(defined(__ICCAVR__) || 
-defined(__ICCRX__) || 
-defined(__ICCRH850__) || 
-defined(__ICCRL78__) || 
-defined(__ICC430__) || 
-defined(__ICCRISCV__) || 
-defined(__ICCV850__) || 
-defined(__ICC8051__) || 
-defined(__ICCSTM8__))
+# elif defined(__VER__) && (defined(__ICCAVR__) || defined(__ICCRX__) || defined(__ICCRH850__) || defined(__ICCRL78__) || defined(__ICC430__) || defined(__ICCRISCV__) || defined(__ICCV850__) || defined(__ICC8051__) || defined(__ICCSTM8__))
 #  define COMPILER_VERSION_MAJOR DEC((__VER__) / 100)
 #  define COMPILER_VERSION_MINOR DEC((__VER__) - (((__VER__) / 100)*100))
 #  define COMPILER_VERSION_PATCH DEC(__SUBVERSION__)

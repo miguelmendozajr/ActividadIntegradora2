@@ -29,6 +29,60 @@
 
 using namespace std;
 
+
+bool bfs(const vector<vector<int>>& residualGraph, int source, int sink, vector<int>& parent) {
+    int numNodes = residualGraph.size();
+    vector<bool> visited(numNodes, false);
+    queue<int> q;
+    q.push(source);
+    visited[source] = true;
+    parent[source] = -1;
+
+    while (!q.empty()) {
+        int currentNode = q.front();
+        q.pop();
+
+        for (int nextNode = 0; nextNode < numNodes; nextNode++) {
+            if (!visited[nextNode] && residualGraph[currentNode][nextNode] > 0) {
+                q.push(nextNode);
+                parent[nextNode] = currentNode;
+                visited[nextNode] = true;
+            }
+        }
+    }
+
+    return visited[sink];
+}
+
+// Function to calculate max flow
+int calculateMaxFlow(int numNodes, const vector<vector<int>>& capacities) {
+    vector<vector<int>> residualGraph = capacities;
+    vector<int> parent(numNodes);
+    int maxFlow = 0;
+    int source = 0;
+    int sink = numNodes - 1;
+
+    while (bfs(residualGraph, source, sink, parent)) {
+        int pathFlow = numeric_limits<int>::max();
+        
+        for (int v = sink; v != source; v = parent[v]) {
+            int u = parent[v];
+            pathFlow = min(pathFlow, residualGraph[u][v]);
+        }
+
+        for (int v = sink; v != source; v = parent[v]) {
+            int u = parent[v];
+            residualGraph[u][v] -= pathFlow;
+            residualGraph[v][u] += pathFlow;
+        }
+
+        maxFlow += pathFlow;
+    }
+
+    return maxFlow;
+}
+
+/*
 // Config Constants
 namespace Config {
     const int MIN_NODES = 1;
@@ -80,7 +134,6 @@ struct Edge {
     }
 };
 
-// Disjoint Set Functions for Kruskal's Algorithm
 vector<int> initializeDisjointSet(int size) {
     if (size < Config::MIN_NODES) {
         throw invalid_argument("Tamaño del conjunto inválido");
@@ -119,32 +172,6 @@ void unite(int x, int y, vector<int>& parent, vector<int>& rank) {
     }
 }
 
-// BFS Function for Max Flow Calculation
-bool bfs(const vector<vector<int>>& residualGraph, int source, int sink, vector<int>& parent) {
-    int numNodes = residualGraph.size();
-    vector<bool> visited(numNodes, false);
-    queue<int> q;
-    q.push(source);
-    visited[source] = true;
-    parent[source] = -1;
-
-    while (!q.empty()) {
-        int currentNode = q.front();
-        q.pop();
-
-        for (int nextNode = 0; nextNode < numNodes; nextNode++) {
-            if (!visited[nextNode] && residualGraph[currentNode][nextNode] > 0) {
-                q.push(nextNode);
-                parent[nextNode] = currentNode;
-                visited[nextNode] = true;
-            }
-        }
-    }
-
-    return visited[sink];
-}
-
-// Function to read matrix from standard input
 vector<vector<int>> readMatrix(int numNodes, const string& matrixName) {
     vector<vector<int>> matrix(numNodes, vector<int>(numNodes));
     for (int i = 0; i < numNodes; i++) {
@@ -160,7 +187,6 @@ vector<vector<int>> readMatrix(int numNodes, const string& matrixName) {
     return matrix;
 }
 
-// Function to calculate the optimal cabling
 vector<Edge> calculateOptimalCabling(int numNodes, const vector<vector<int>>& distances) {
     vector<Edge> edges;
     for (int i = 0; i < numNodes; i++) {
@@ -186,7 +212,6 @@ vector<Edge> calculateOptimalCabling(int numNodes, const vector<vector<int>>& di
     return minimumSpanningTree;
 }
 
-// Function to calculate delivery route
 vector<int> calculateDeliveryRoute(int numNodes, const vector<vector<int>>& distances) {
     vector<bool> visited(numNodes, false);
     vector<int> route;
@@ -219,35 +244,6 @@ vector<int> calculateDeliveryRoute(int numNodes, const vector<vector<int>>& dist
     return route;
 }
 
-// Function to calculate max flow
-int calculateMaxFlow(int numNodes, const vector<vector<int>>& capacities) {
-    vector<vector<int>> residualGraph = capacities;
-    vector<int> parent(numNodes);
-    int maxFlow = 0;
-    int source = 0;
-    int sink = numNodes - 1;
-
-    while (bfs(residualGraph, source, sink, parent)) {
-        int pathFlow = numeric_limits<int>::max();
-        
-        for (int v = sink; v != source; v = parent[v]) {
-            int u = parent[v];
-            pathFlow = min(pathFlow, residualGraph[u][v]);
-        }
-
-        for (int v = sink; v != source; v = parent[v]) {
-            int u = parent[v];
-            residualGraph[u][v] -= pathFlow;
-            residualGraph[v][u] += pathFlow;
-        }
-
-        maxFlow += pathFlow;
-    }
-
-    return maxFlow;
-}
-
-// Function to find the nearest center
 Point findNearestCenter(const vector<Point>& centers, Point location) {
     if (centers.empty()) {
         throw runtime_error("No hay centrales disponibles");
@@ -266,3 +262,4 @@ Point findNearestCenter(const vector<Point>& centers, Point location) {
 
     return nearest;
 }
+*/
