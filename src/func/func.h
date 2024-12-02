@@ -22,7 +22,7 @@ namespace Config {
 struct Point {
     int x, y;
 
-    Point(int xCoord = 0.0, int yCoord = 0.0) {
+    Point(int xCoord = 0, int yCoord = 0) {
         if (!isfinite(xCoord) || !isfinite(yCoord)) {
             throw invalid_argument("Coordenadas inválidas");
         }
