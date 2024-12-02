@@ -248,7 +248,7 @@ int calculateMaxFlow(int numNodes, const vector<vector<int>>& capacities) {
 }
 
 // Function to find the nearest center
-Point findNearestCenter(const vector<Point>& centers, const Point& location) {
+Point findNearestCenter(const vector<Point>& centers, Point location) {
     if (centers.empty()) {
         throw runtime_error("No hay centrales disponibles");
     }
