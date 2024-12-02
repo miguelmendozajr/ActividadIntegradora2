@@ -1,38 +1,79 @@
 #include <vector>
 #include <string>
-#include <tuple>
+#include <limits>
+
+// Configuration namespace
+namespace Config {
+    extern const int MIN_NODES;
+    extern const int MAX_NODES;
+    extern const double MAX_DISTANCE;
+    extern const double EPSILON;
+}
+
+using namespace std;
+
+// Logger class declaration
+class Logger {
+public:
+    static void logError(const string& message);
+    static void logInfo(const string& message);
+    static void logWarning(const string& message);
+};
+
+// Point class declaration
+class Point {
+public:
+    double x, y;
+
+    Point(double xCoord = 0.0, double yCoord = 0.0);
+    double distanceTo(const Point& other) const;
+    string toString() const;
+};
+
+// Edge class declaration
+class Edge {
+public:
+    int sourceNode;
+    int destinationNode;
+    int weight;
+
+    Edge(int source, int destination, int edgeWeight);
+    bool operator<(const Edge& other) const;
+};
+
+// DisjointSet class declaration
+class DisjointSet {
+private:
+    vector<int> parent;
+    vector<int> rank;
+
+public:
+    explicit DisjointSet(int size);
+    int find(int x);
+    void unite(int x, int y);
+};
+
+// NetworkOptimizer class declaration
+class NetworkOptimizer {
+private:
+    int numNodes;
+    vector<vector<int>> distances;
+    vector<vector<int>> capacities;
+    vector<Point> centers;
+
+    vector<vector<int>> readMatrix(const string& matrixName);
+    bool bfs(vector<vector<int>>& residualGraph, int source, int sink, vector<int>& parent);
+
+public:
+    NetworkOptimizer(int N, const vector<vector<int>>& dis, const vector<vector<int>>& cap, const vector<Point>& cent);
+    void readCenters();
+    vector<Edge> calculateOptimalCabling();
+    vector<int> calculateDeliveryRoute();
+    int calculateMaxFlow();
+    Point findNearestCenter(const Point& location);
+};
 
 /// @brief Computes the factorial of a given number.
 /// @param number The number for which the factorial is to be computed.
 /// @return The factorial of the given number.
 unsigned int factorial(unsigned int number);
-
-/// @brief Computes the Longest Prefix Suffix (LPS) array for a given pattern.
-/// The LPS array is used in the Knuth-Morris-Pratt (KMP) string matching algorithm.
-/// @param pattern The string pattern to compute the LPS array for.
-/// @return A vector of integers representing the LPS array.
-std::vector<int> computeLPS(const std::string& pattern);
-
-/// @brief Checks if a machine code (mcode) is present in a transmission.
-/// Reads the contents of both files and determines if the mcode is a substring of the transmission.
-/// @param transmissionContent The file containing the transmission data.
-/// @param codeContent The file containing the machine code to search for.
-/// @return 1 if the mcode is found in the transmission, -2 otherwise.
-int containsCode(const std::string& transmissionContent, const std::string& codeContent);
-
-/*
-/// @brief Finds the longest palindromic substring in a given transmission file.
-/// Reads the contents of the file and identifies the longest substring that is a palindrome.
-/// @param transmissionFile The file containing the transmission data.
-/// @return A tuple containing the start index, end index, and the longest palindromic substring.
-std::tuple<int, int, std::string> findLongestPalindrome(const std::string& transmissionFile);
-
-
-/// @brief Finds the longest common substring between two transmission files.
-/// Reads the contents of both files and identifies the longest substring that appears in both.
-/// @param transmission1File The file containing the first transmission data.
-/// @param transmission2File The file containing the second transmission data.
-/// @return A tuple containing the start index in the first file, start index in the second file, 
-///         and the longest common substring.
-std::tuple<int, int, std::string> findLongestCommonSubstring(const std::string& transmission1File, const std::string& transmission2File);
-*/
