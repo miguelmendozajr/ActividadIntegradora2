@@ -1,79 +1,87 @@
+#include <iostream>
 #include <vector>
-#include <string>
+#include <queue>
+#include <cmath>
 #include <limits>
-
-// Configuration namespace
-namespace Config {
-    extern const int MIN_NODES;
-    extern const int MAX_NODES;
-    extern const double MAX_DISTANCE;
-    extern const double EPSILON;
-}
+#include <stdexcept>
+#include <sstream>
+#include <string>
+#include <iomanip>
 
 using namespace std;
 
-// Logger class declaration
-class Logger {
-public:
-    static void logError(const string& message);
-    static void logInfo(const string& message);
-    static void logWarning(const string& message);
-};
+// Config Constants
+namespace Config {
+    const int MIN_NODES = 1;
+    const int MAX_NODES = 1000;
+    const double MAX_DISTANCE = 1000000.0;
+    const double EPSILON = 1e-10;
+}
 
-// Point class declaration
-class Point {
-public:
+// Point Structure
+struct Point {
     double x, y;
 
-    Point(double xCoord = 0.0, double yCoord = 0.0);
-    double distanceTo(const Point& other) const;
-    string toString() const;
+    Point(double xCoord = 0.0, double yCoord = 0.0) {
+        if (!isfinite(xCoord) || !isfinite(yCoord)) {
+            throw invalid_argument("Coordenadas inválidas");
+        }
+        x = xCoord;
+        y = yCoord;
+    }
+
+    double distanceTo(const Point& other) const {
+        double dx = x - other.x;
+        double dy = y - other.y;
+        return sqrt(dx * dx + dy * dy);
+    }
+
+    string toString() const {
+        ostringstream oss;
+        oss << fixed << setprecision(2) << "(" << x << ", " << y << ")";
+        return oss.str();
+    }
 };
 
-// Edge class declaration
-class Edge {
-public:
+// Edge Structure
+struct Edge {
     int sourceNode;
     int destinationNode;
     int weight;
 
-    Edge(int source, int destination, int edgeWeight);
-    bool operator<(const Edge& other) const;
+    Edge(int source, int destination, int edgeWeight)
+        : sourceNode(source), destinationNode(destination), weight(edgeWeight) {
+        if (edgeWeight < 0) {
+            throw invalid_argument("Peso de arista negativo");
+        }
+    }
+
+    bool operator<(const Edge& other) const {
+        return weight < other.weight;
+    }
 };
 
-// DisjointSet class declaration
-class DisjointSet {
-private:
-    vector<int> parent;
-    vector<int> rank;
+// Disjoint Set Functions for Kruskal's Algorithm
+vector<int> initializeDisjointSet(int size);
 
-public:
-    explicit DisjointSet(int size);
-    int find(int x);
-    void unite(int x, int y);
-};
+int find(int x, vector<int>& parent);
 
-// NetworkOptimizer class declaration
-class NetworkOptimizer {
-private:
-    int numNodes;
-    vector<vector<int>> distances;
-    vector<vector<int>> capacities;
-    vector<Point> centers;
+void unite(int x, int y, vector<int>& parent, vector<int>& rank);
 
-    vector<vector<int>> readMatrix(const string& matrixName);
-    bool bfs(vector<vector<int>>& residualGraph, int source, int sink, vector<int>& parent);
+// BFS Function for Max Flow Calculation
+bool bfs(const vector<vector<int>>& residualGraph, int source, int sink, vector<int>& parent);
 
-public:
-    NetworkOptimizer(int N, const vector<vector<int>>& dis, const vector<vector<int>>& cap, const vector<Point>& cent);
-    void readCenters();
-    vector<Edge> calculateOptimalCabling();
-    vector<int> calculateDeliveryRoute();
-    int calculateMaxFlow();
-    Point findNearestCenter(const Point& location);
-};
+// Function to read matrix from standard input
+vector<vector<int>> readMatrix(int numNodes, const string& matrixName);
 
-/// @brief Computes the factorial of a given number.
-/// @param number The number for which the factorial is to be computed.
-/// @return The factorial of the given number.
-unsigned int factorial(unsigned int number);
+// Function to calculate the optimal cabling
+vector<Edge> calculateOptimalCabling(int numNodes, const vector<vector<int>>& distances);
+
+// Function to calculate delivery route
+vector<int> calculateDeliveryRoute(int numNodes, const vector<vector<int>>& distances);
+
+// Function to calculate max flow
+int calculateMaxFlow(int numNodes, vector<vector<int>>& capacities);
+
+// Function to find the nearest center
+Point findNearestCenter(const vector<Point>& centers, const Point& location);

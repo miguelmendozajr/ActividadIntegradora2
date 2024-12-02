@@ -33,13 +33,6 @@ TEST_CASE("factorial") {
 };
 
 TEST_CASE("Test 1") {
-    const std::vector<std::vector<int>> distances = {
-        {0, 16, 45, 32},
-        {16, 0, 18, 21},
-        {45, 18, 0, 7},
-        {32, 21, 7, 0}
-    };
-
     const std::vector<std::vector<int>> capacities = {
         {0, 48, 12, 18},
         {52, 0, 42, 32},
@@ -47,19 +40,7 @@ TEST_CASE("Test 1") {
         {24, 36, 52, 0}
     };
 
-    // Points
-    const std::vector<Point> centers = {
-        Point(200.0, 500.0),
-        Point(300.0, 100.0),
-        Point(450.0, 150.0),
-        Point(520.0, 480.0)
-    };
-
-
-    NetworkOptimizer optimizer(4, distances, capacities, centers);
-    int output = optimizer.calculateMaxFlow();
-
-    REQUIRE(output == 78);
+    REQUIRE(calculateMaxFlow(4, capacities) == 78);
 
 };
 
