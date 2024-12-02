@@ -20,9 +20,9 @@ namespace Config {
 
 // Point Structure
 struct Point {
-    double x, y;
+    int x, y;
 
-    Point(double xCoord = 0.0, double yCoord = 0.0) {
+    Point(int xCoord = 0.0, int yCoord = 0.0) {
         if (!isfinite(xCoord) || !isfinite(yCoord)) {
             throw invalid_argument("Coordenadas inválidas");
         }
@@ -31,8 +31,8 @@ struct Point {
     }
 
     double distanceTo(const Point& other) const {
-        double dx = x - other.x;
-        double dy = y - other.y;
+        int dx = x - other.x;
+        int dy = y - other.y;
         return sqrt(dx * dx + dy * dy);
     }
 

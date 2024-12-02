@@ -26,7 +26,7 @@
 
 
 
-TEST_CASE("Test 1") {
+TEST_CASE("Test 3") {
     const std::vector<std::vector<int>> capacities = {
         {0, 48, 12, 18},
         {52, 0, 42, 32},
@@ -35,6 +35,19 @@ TEST_CASE("Test 1") {
     };
 
     REQUIRE(calculateMaxFlow(4, capacities) == 78);
+};
 
+TEST_CASE("Test 4") {
+    const std::vector<Point> centers = {
+        Point(200, 500),
+        Point(300, 100),
+        Point(450, 150),
+        Point(520, 480)
+    };
+
+    const Point location(400, 300);
+
+    Point output = findNearestCenter(centers, location);
+    REQUIRE(output.x == 450 && output.y == 150);
 };
 
