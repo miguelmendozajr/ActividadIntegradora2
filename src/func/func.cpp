@@ -220,7 +220,7 @@ vector<int> calculateDeliveryRoute(int numNodes, const vector<vector<int>>& dist
 }
 
 // Function to calculate max flow
-int calculateMaxFlow(int numNodes, vector<vector<int>>& capacities) {
+int calculateMaxFlow(int numNodes, const vector<vector<int>>& capacities) {
     vector<vector<int>> residualGraph = capacities;
     vector<int> parent(numNodes);
     int maxFlow = 0;

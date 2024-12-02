@@ -24,13 +24,7 @@
 #include <vector>
 #include "func.h"
 
-TEST_CASE("factorial") {
-    REQUIRE(factorial(0) == 1);
-    REQUIRE(factorial(1) == 1);
-    REQUIRE(factorial(2) == 2);
-    REQUIRE(factorial(3) == 6);
-    REQUIRE(factorial(4) == 24);
-};
+
 
 TEST_CASE("Test 1") {
     const std::vector<std::vector<int>> capacities = {

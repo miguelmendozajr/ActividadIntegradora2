@@ -81,7 +81,7 @@ vector<Edge> calculateOptimalCabling(int numNodes, const vector<vector<int>>& di
 vector<int> calculateDeliveryRoute(int numNodes, const vector<vector<int>>& distances);
 
 // Function to calculate max flow
-int calculateMaxFlow(int numNodes, vector<vector<int>>& capacities);
+int calculateMaxFlow(int numNodes, const vector<vector<int>>& capacities);
 
 // Function to find the nearest center
 Point findNearestCenter(const vector<Point>& centers, const Point& location);
